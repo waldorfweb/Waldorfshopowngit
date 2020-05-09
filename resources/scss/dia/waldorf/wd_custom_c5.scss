@@ -1,0 +1,40 @@
+/* CSS after update ceres 5
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://source.waldorfshop.eu/c5/js/wd_custom.js" type="text/javascript" async=""></script>
+<script src="https://kit.fontawesome.com/d2fb22a7c8.js" crossorigin="anonymous" async=""></script>
+
+<link rel="stylesheet" href="https://source.waldorfshop.eu/c5/css/wd_bootstrap.css">
+<link rel="stylesheet" href="https://source.waldorfshop.eu/c5/css/wd_custom.css">
+<link rel="stylesheet" href="https://source.waldorfshop.eu/c5/css/wd_custom_mobile.css">
+<link rel="stylesheet" href="https://source.waldorfshop.eu/c5/css/wd_custom_c5.css">
+
+
+<link rel='stylesheet' id='sourcecss_mobile' href='https://source.waldorfshop.eu/wd_custom_dev.css' type='text/css' media='all' />
+*/
+#page-body {
+	margin-top: -4px;
+}
+#page-body > .container-max > .row > .col{
+	padding-top:20px !important;
+}
+
+.main-navbar-collapsable .mainmenu>li>a {
+    padding: 1rem 0.5rem;
+    color: #b92a38;
+    font-size: 11.8px;
+}
+
+@media(max-width:1260px) {
+	.main-navbar-collapsable .mainmenu>li>a {
+    padding: 0.4rem 0.5rem;
+    color: #b92a38;
+    font-size: 11.8px;
+}
+}
+
+.cmp-product-thumb .thumb-image{
+	max-width: 80%;
+    margin: 20px auto;
+}
+

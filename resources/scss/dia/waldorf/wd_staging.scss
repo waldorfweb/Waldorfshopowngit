@@ -1,0 +1,100 @@
+
+@media(min-width:992px) {
+
+.navbar .ddown .collapse {
+    border: 0px solid transparent !important;
+    background: white;
+}
+.normalmenu a{
+	color:#b92a38 !important;
+}
+.normalmenu a:hover{
+	color:white !important;
+}
+.normalmenu .collapse-inner>li a {
+    padding: 0.5rem 0.7rem 0.6rem 0.7rem;
+}
+
+.normalmenu .collapse-inner>li ul li a {
+    padding: 0.6rem 0.6rem 0.6rem 1rem;
+}
+.normalmenu .mainmenu li {
+    /* max-height: 50px; */
+    margin-left: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.normalmenu .collapse {
+    position: absolute;
+    display: block;
+    min-width: 240px;
+    overflow:visible !important;
+    max-height: 100vh;
+    /* overflow: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+    visibility: hidden;
+    background: #b92a38;
+    opacity: 0; */
+    background: #FBF3E6 !important;
+}
+
+
+
+
+.normalmenu .collapse-inner>li:hover {
+    background: #b92a38 !important;
+    color:white !important;
+}
+.normalmenu .level2 {
+	display: none;
+    position: absolute;
+    right:-240px;
+    transition: all .2s;
+}
+.normalmenu .level2:hover {
+	display: block;
+
+}
+.normalmenu .level1:hover ~ .level2, .normalmenu .level2:hover ~ .level2, .normalmenu .level2:hover {
+	display: block !important;
+    position: absolute;
+    right:-240px;
+    width: 240px;
+    background: #FBF3E6;
+    text-align: left;
+    margin-top:-38px;
+    transition: all .2s;
+}
+
+/* .ddown:nth-last-child(1) .normalmenu .level2,.ddown:nth-last-child(2) .normalmenu .level2,.ddown:nth-last-child(3) .normalmenu .level2, .ddown:nth-last-child(10) .normalmenu .level2   {
+	display: none;
+    position: absolute;
+    left:-240px;
+    transition: all .2s;
+} */
+/* .normalmenu .mainmenu > li:nth-last-child(10){
+	border:1px solid red !important;
+} */
+.normalmenu .mainmenu > li:nth-last-child(1) .level1:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(1) .level2:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(1) .level2:hover {
+    left:-240px !important;
+}
+.normalmenu .mainmenu > li:nth-last-child(2) .level1:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(2) .level2:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(2) .level2:hover {
+	left:-240px !important;
+}
+.normalmenu .mainmenu > li:nth-last-child(3) .level1:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(3) .level2:hover ~ .level2, .normalmenu .mainmenu > li:nth-last-child(3) .level2:hover {
+    left:-240px !important;
+}
+
+
+
+
+
+
+/* Change this in order to change the Dropdown symbol */
+.navpfeil a:after { content:  ' >' !important; color: #b92a38 !important; font-size:28px; float:right; }
+.navpfeil:hover a:after { color: white !important; }
+/* li > a:only-child:after { content: ''; } */
+
+
+} /* end 992 */
