@@ -1,40 +1,15 @@
-@import "dia/dia-variables";
-@import "dia/user-variables";
-
 @import "~Ceres/resources/scss/ceres/category";
 @import "~Ceres/resources/scss/ceres/item";
 
-@import "dia/mixins";
-@import "dia/type";
 
 
 // ==========================================================================
 // DIA Pages
 // ==========================================================================
-@import "dia/pages/home";
-@import "dia/pages/basket";
-@import "dia/pages/category";
-@import "dia/pages/checkout";
-@import "dia/pages/main";
-@import "dia/pages/single";
-@import "dia/pages/widgets";
-
-// ==========================================================================
-// DIA Components
-// ==========================================================================
-@import "dia/components/icons";
-@import "dia/components/inputs";
-@import "dia/components/buttons";
-@import "dia/components/condition-select";
-
-
-// ==========================================================================
-// DIA
-// ==========================================================================
-@import "dia/main";
-@import "dia/font";
-
-// Widgets
-@import "dia/widgets/widgets";
+@import "waldorf/wd_bootstrap";
+@import "waldorf/wd_staging";
+@import "waldorf/wd_custom";
+@import "waldorf/wd_custom_c5";
+@import "waldorf/wd_custom_mobile";
 
 @import "~swiper/dist/css/swiper.min.css";
