@@ -1,0 +1,37 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: $dia-body-bg;
+    font-family: $dia-font-family-sans-serif;
+    color: $dia-gray-dark;
+}
+body > #vue-app, body > #vue-error {
+    background: $dia-body-bg;
+}
+
+@mixin custom-icon {
+    &:before {
+        content: ""; 
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+    }
+}
+
+.custom-select {
+    border: none;
+}
+
+.item-filter-price {
+    .btn-appearance i {
+        display: block;
+    }
+}
+
+.breadcrumbs {
+    background-color: $white!important;
+}

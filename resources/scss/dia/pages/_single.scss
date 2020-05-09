@@ -1,0 +1,316 @@
+.page-singleitem {
+    .producertag {
+        p {
+            margin-bottom: 0;
+            color: $dia-text;
+        }
+    }
+
+    .title-outer {
+        h1 {
+            @extend %h2;
+
+
+        }
+    }
+
+    .articlenumber {
+        @extend %text;
+    }
+
+    .price {
+        @extend %h4;
+    }
+
+    .variation-select {
+
+        span,
+        b {
+            @extend %small;
+        }
+
+    }
+}
+
+.v-s-boxes {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    padding-top: 5px !important;
+    margin: 0;
+
+    .v-s-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 40px;
+        min-height: 40px;
+        border: 1px solid $gray-lighter;
+        border-radius: $border-radius;
+        cursor: pointer;
+        margin: 0;
+        margin-right: 5px;
+
+        &.active {
+            color: $primary;
+            border: 1px solid $primary;
+        }
+        &.empty-option {
+            display: none;
+        }
+
+        &.invalid {
+            position: relative;
+            border-style: dashed;
+
+            &>span,
+            img {
+                opacity: .5;
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                background: linear-gradient(to top left,
+                        rgba(0, 0, 0, 0) 0%,
+                        rgba(0, 0, 0, 0) calc(50% - 0.8px),
+                        $gray-lighter 50%,
+                        rgba(0, 0, 0, 0) calc(50% + 0.8px),
+                        rgba(0, 0, 0, 0) 100%);
+            }
+        }
+    }
+
+    &.images {
+        .v-s-box:not(.empty-option) {
+            height: 40px;
+            width: 40px;
+
+            >img {
+                height: 100%;
+                width: 100%;
+                border-radius: $border-radius;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.add-to-basket-container {
+    display: flex;
+
+    .quantity-input-container {
+        margin-right: 15px;
+    }
+}
+
+.rezension {
+    display: inline-block;
+}
+
+.order-property-slider {
+    overflow: hidden;
+
+    .order-property-slider-inner {
+        white-space: nowrap;
+        transition: transform 300ms ease;
+
+        >div {
+            display: inline-block;
+            width: 100%;
+            visibility: hidden;
+
+            &.active {
+                visibility: visible;
+            }
+        }
+    }
+
+    .order-property-slider-controls {
+        display: flex;
+        flex-direction: row;
+
+        .slider-nav {
+            flex: 1;
+            text-align: center;
+
+            span {
+                width: 12px;
+                height: 12px;
+                display: inline-block;
+                border-radius: 50%;
+                border: 1px solid $gray-lighter;
+                background-color: #fff;
+                margin: 12px 5px 0;
+                cursor: pointer;
+                transition: all .3s ease;
+
+                &.active {
+                    background-color: $gray-lighter;
+
+                    &.error {
+                        // background-color: lighten($danger, 25%);
+                        background-color: mix($danger, $gray-lighter);
+                        border-color: mix(lighten($danger, 25%), $gray-lighter);
+                    }
+                }
+
+                &.highlight {
+                    background-color: $primary;
+                    border-color: lighten($primary, 25%);
+                }
+
+                &.error {
+                    background-color: $danger;
+                    border-color: lighten($danger, 25%);
+                }
+            }
+        }
+    }
+}
+
+
+
+.single {
+    .nav-tabs {
+        border-bottom: 0;
+        .nav-item {
+            float: left;
+
+            .nav-link {
+                border: 0;
+                border-bottom: 2px solid $nav-tabs-border-color;
+                padding: 0 20px;
+                font-weight: bold;
+                @extend %small;
+                padding-bottom: 5px;
+
+                &.active,
+                &:hover {
+                    border: 0;
+                    border-bottom: 2px solid $nav-tabs-border-color;
+                    color: $gray;
+                    background: white;
+                }
+
+                &.active {
+                    padding: 0;
+                    border: 0;
+                    border-bottom: 2px solid $dia-primary;
+                }
+            }
+
+            &+.nav-item {
+                margin-left: -1px;
+            }
+        }
+    }
+}
+
+.availability {
+    position: relative;
+    padding-left: 15px;
+    &:before {
+        content: '●';
+        position: absolute;
+        left: 0px;
+    }
+}
+
+// availability States
+
+$state-list:(
+    1: $availability_1,
+    2: $availability_2,
+    3: $availability_3,
+    4: $availability_4,
+    5: $availability_5,
+    6: $availability_6,
+    7: $availability_7,
+    8: $availability_8,
+    9: $availability_9,
+    10: $availability_10,
+);
+
+@each $key,
+$val in $state-list {
+    .availability_#{$key} {
+        &:before {
+            color: #{$val};
+        }
+    }
+}
+
+
+// DIA 2020 Styles
+
+.single {
+    padding-top: 0;
+
+    .dia-single {
+
+        &__title {
+
+            .bg-appearance {
+                background-color: transparent!important;
+
+                h1 {
+                    color: $gray-darker!important;
+                }
+            }
+        }
+
+        &__article-data {
+            @include sizes("padding-left", 0, 50, 80, true);
+
+            .custom-select {
+                background-color: $gray-lightest;
+            }
+            .form-check-input {
+                margin-left: -1.2rem;
+            }
+        }
+
+        &__price {
+            .base-price {
+                margin: 10px 0 0!important;
+                font-size: 12px;
+                display: flex;
+
+                &>div {
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        &__tabs {
+            .nav-tabs {
+                .nav-link {
+                    padding: 0 2rem 0.5rem;
+                    color: $gray-darker!important;
+
+                    &.active {
+                        background-color: transparent;
+                        padding: 0 2rem 0.5rem;
+                        color: $primary!important;
+                    }
+
+                    &:hover {
+                        background-color: transparent;
+                        color: $primary!important;
+                    }
+                }
+                .nav-item {
+                    @include media-breakpoint-down(sm) {
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

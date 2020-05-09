@@ -1,0 +1,40 @@
+@import "dia/dia-variables";
+@import "dia/user-variables";
+
+@import "~ceres/resources/scss/ceres/category";
+@import "~ceres/resources/scss/ceres/checkout";
+
+@import "dia/mixins";
+@import "dia/type";
+
+
+// ==========================================================================
+// DIA Pages
+// ==========================================================================
+@import "dia/pages/home";
+@import "dia/pages/basket";
+@import "dia/pages/category";
+@import "dia/pages/checkout";
+@import "dia/pages/main";
+@import "dia/pages/single";
+@import "dia/pages/widgets";
+
+// ==========================================================================
+// DIA Components
+// ==========================================================================
+@import "dia/components/icons";
+@import "dia/components/inputs";
+@import "dia/components/buttons";
+@import "dia/components/condition-select";
+
+
+// ==========================================================================
+// DIA
+// ==========================================================================
+@import "dia/main";
+@import "dia/font";
+
+// Widgets
+@import "dia/widgets/widgets";
+
+@import "../../node_modules/swiper/dist/css/swiper.css";

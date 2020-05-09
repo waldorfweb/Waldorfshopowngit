@@ -1,0 +1,21 @@
+.dia-top-bar{
+	background: $dia-top-bar-bg;
+	border-bottom: 2px solid $dia-top-bar-border;
+
+	&__list{
+		display: flex;
+		justify-content: flex-end;
+		list-style: none;
+		margin-bottom: 0;
+		padding: .5rem 0;
+	}
+
+	&__list-item{
+		margin-right: 5px;
+		margin-left: 5px;
+		&--languages a {
+			color: $white;
+		}
+	}
+
+}
