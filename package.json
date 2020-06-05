@@ -1,5 +1,5 @@
 {
-  "name": "ODTuningFanatics",
+  "name": "Waldorfshop",
   "license": "AGPL-3.0",
   "version": "5.0.1",
   "repository": {
@@ -66,7 +66,7 @@
     "webpack-require-from": "^1.8.1"
   },
   "dependencies": {
-    "Ceres": "git+ssh://git@github.com/plentymarkets/plugin-ceres.git#5.0.1",
+    "Ceres": "git+ssh://git@github.com/plentymarkets/plugin-ceres.git#5.0.2",
     "bootstrap": "4.4.1",
     "core-js": "^3.6.4",
     "custom-event-polyfill": "^0.3.0",

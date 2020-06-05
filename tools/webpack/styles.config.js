@@ -3,7 +3,7 @@ const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 const path = require("path");
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 const pluginSetUrl = "https://www.tuning-fanatics.de/?pluginSetPreview=JDJ5JDEwJGd5RzIybC5LT1laRElBZjU5dU85eGVEVU41ekRPM1FOZk1ZSkVldVZGWGh5T0cxaXBuWlNp";
-const pluginPath = "odtuningfanatics";
+const pluginPath = "Waldorfshop";
 
 module.exports = env =>
 {
