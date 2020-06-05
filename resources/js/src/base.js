@@ -233,6 +233,7 @@ import "ceres/app/mixins/template.mixin";
 // Bootstrap frameworks
 // =========================
 import "~/app/main";
+import "~/app/wd_custom";
 
 import TranslationService from "ceres/app/services/TranslationService";
 import { isNullOrUndefined } from "ceres/app/helper/utils";
