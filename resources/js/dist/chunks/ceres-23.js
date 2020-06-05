@@ -177,7 +177,9 @@ __webpack_require__.r(__webpack_exports__);
                     }
                     else if (validation === "ref")
                     {
-                        _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].error("Ceres::Template.resetPwRepeatNewPassword");
+                        _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].error(
+                            this.$translate("Ceres::Template.resetPwRepeatNewPassword")
+                        );
                     }
                 });
         },

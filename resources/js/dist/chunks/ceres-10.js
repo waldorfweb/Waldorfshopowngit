@@ -347,6 +347,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 
 
@@ -634,7 +638,27 @@ var render = function() {
                               ])
                             : _vm._e(),
                           _vm._v(" "),
-                          _c("span", [_vm._v(_vm._s(property.names.name))])
+                          _c("span", [_vm._v(_vm._s(property.names.name))]),
+                          _vm._v(" "),
+                          property.cast === "file"
+                            ? _c("span", [
+                                _c("a", {
+                                  attrs: {
+                                    href: _vm._f("propertyFileUrl")(
+                                      property.values.value
+                                    ),
+                                    target: "_blank"
+                                  },
+                                  domProps: {
+                                    innerHTML: _vm._s(property.values.value)
+                                  }
+                                })
+                              ])
+                            : _c("span", {
+                                domProps: {
+                                  innerHTML: _vm._s(property.values.value)
+                                }
+                              })
                         ])
                       })
                     })

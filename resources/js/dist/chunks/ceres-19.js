@@ -182,6 +182,14 @@ __webpack_require__.r(__webpack_exports__);
                         this.isInitiallyLoaded = true;
                     });
             }
+        },
+
+        getCategoryUrl(url)
+        {
+            const trailingSlash = url[0] === "/" ? "" : "/";
+            const prefix = App.urls.includeLanguage ? `/${ App.language }${ trailingSlash }` : "";
+
+            return prefix + url;
         }
     }
 });
@@ -222,7 +230,7 @@ var render = function() {
                   "a",
                   {
                     attrs: {
-                      href: category.url,
+                      href: _vm.getCategoryUrl(category.url),
                       title:
                         category.details[0].metaTitle ||
                         category.details[0].name
