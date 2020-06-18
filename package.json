@@ -66,7 +66,7 @@
     "webpack-require-from": "^1.8.1"
   },
   "dependencies": {
-    "Ceres": "git+ssh://git@github.com/plentymarkets/plugin-ceres.git#5.0.2",
+    "Ceres": "git+https://git@github.com/plentymarkets/plugin-ceres.git#5.0.4",
     "bootstrap": "4.4.1",
     "core-js": "^3.6.4",
     "custom-event-polyfill": "^0.3.0",

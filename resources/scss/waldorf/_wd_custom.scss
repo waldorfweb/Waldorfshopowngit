@@ -46,6 +46,20 @@ body {
 	-moz-osx-font-smoothing:grayscale;
 }
 
+/* fixing after */
+
+a {
+	color:#b92a38 !important;
+}
+
+.control-basket .toggle-basket-preview {
+    color: #fff;
+    background-color: #b92a38;
+}
+.controls-list .nav-link:hover {
+    color: #fff !important;
+    background-color: #b92a38;
+}
 
 /* Google Form iframe */
 
@@ -1875,7 +1889,14 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 
 /* footer  */
 
-.footer .widget_hinweis_klein .fa, .footer .widget_hinweis_klein .far, .footer .widget_hinweis_klein .fas {
+.dia-footer a{
+	color:white !important;
+}
+.dia-footer a:hover{
+	color:rgb(218, 218, 218);
+}
+
+.dia-footer .widget_hinweis_klein .fa, .dia-footer .widget_hinweis_klein .far, .dia-footer .widget_hinweis_klein .fas {
     font-family: "Font Awesome 5 Free";
     font-size: 32px;
     clear: both;
@@ -1883,17 +1904,17 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
     padding-bottom: 20px;
     color:#FBF3E6;
 }
-.footer .widget_hinweis_klein a{
+.dia-footer .widget_hinweis_klein a{
 	max-width: 240px;
 }
-.footer .widget_hinweis_klein ul li{
+.dia-footer .widget_hinweis_klein ul li{
 	text-align:center;
 }
-.footer .modSocialMediaBox{
+.dia-footer .modSocialMediaBox{
 	padding-top:6px;
 }
 
-.footer {
+.dia-footer {
 	border-top:1px solid transparent!important;
 	background-color:#806eac!important;
 	color:#fff;
@@ -1903,38 +1924,38 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 	max-width:100%;
 }
 
-.footer,.footer a,.footer .widget-list .widget-inner a,.footer .widget-link-list .widget-inner a,.footer .fa,.wd_footer_versand .h4 {
+.dia-footer,.dia-footer a,.dia-footer .widget-list .widget-inner a,.dia-footer .widget-link-list .widget-inner a,.dia-footer .fa,.wd_footer_versand .h4 {
 	color:#fff;
 }
 
-.footer a:hover {
+.dia-footer a:hover {
 	color:#e1e1e1!important;
 }
 
-.footer .row {
+.dia-footer .row {
 	max-width:1360px;
 	margin:0 auto;
 }
 
-.footer .col,.footer .widget-grid .widget-inner .widget-list {
+.dia-footer .col,.dia-footer .widget-grid .widget-inner .widget-list {
 	background-color:#806eac!important;
 }
 
-.footer .widget-legal-information {
+.dia-footer .widget-legal-information {
 	border-top:1px solid #0000001c;
 	padding-top:20px;
 	margin-top:20px;
 }
 @media(min-width:567px) {
 
-.footer .widget-legal-information {
+.dia-footer .widget-legal-information {
 	border-top:1px solid #0000001c;
 	padding-top:20px;
 	margin-top:-10px !important;
 }
 }
 
-.footer .pipe {
+.dia-footer .pipe {
 	border-left:0;
 }
 
@@ -1972,7 +1993,7 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 	max-width: 100%;
 }
 
-.footer .widget_payment {
+.dia-footer .widget_payment {
     border-top: 1px solid #0000001c;
     padding-top: 20px;
     margin-top: 20px;

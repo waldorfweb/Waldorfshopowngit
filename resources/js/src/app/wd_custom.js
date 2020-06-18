@@ -40,8 +40,7 @@ $(function() {
 
 
 $(document).ready(function() {
-
-
+    
 	if ($("body").hasClass("item-10000621")) {
       //alert('test3');
       		//alert('test4');
