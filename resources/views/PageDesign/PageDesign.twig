@@ -207,7 +207,7 @@
         isShopBuilder: {{ isShopBuilder | default(false) | json_encode }},
         bundleSetting: {{ webstoreConfig.dontSplitItemBundle }},
         initialPleaseSelect: {{ webstoreConfig.attributeSelectDefaultOption }},
-        publicPath: "{{ plugin_path('Ceres') ~ '/js/dist/' }}",
+        publicPath: "{{ plugin_path('Waldorfshop') ~ '/js/dist/' }}",
         isCheapestSorting: "{{ services.template.isCheapestSorting() }}",
         initialData: {
             shippingCountries: {{ services.country.getActiveCountriesList() | filterFields(["id", "currLangName", "isoCode2", "states.id", "states.name"]) | json_encode | raw }},
