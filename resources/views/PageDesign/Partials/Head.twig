@@ -80,7 +80,7 @@
 
 <link rel="preload" as="style" href="{{ defaultCSS }}">
 {% if LayoutContainer.show("Ceres::Template.StyleOverwrite") | trim is empty %}
-    <link rel="stylesheet" href="{{ defaultCSS }}"{% if isShopBuilder %} data-sass-root="{{ plugin_path('Waldorfshop') }}" data-sass-original="{{ defaultSCSS }}"{% endif %}>
+    <link rel="stylesheet" href="{{ defaultCSS }}">
 {% endif %}
 
 {% if isShopBuilder %}
