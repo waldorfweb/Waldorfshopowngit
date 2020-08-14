@@ -15,19 +15,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_filter__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! core-js/modules/es.array.for-each */ "./node_modules/core-js/modules/es.array.for-each.js");
 /* harmony import */ var core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_for_each__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.number.constructor */ "./node_modules/core-js/modules/es.number.constructor.js");
-/* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.object.get-own-property-descriptor */ "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js");
-/* harmony import */ var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.object.get-own-property-descriptors */ "./node_modules/core-js/modules/es.object.get-own-property-descriptors.js");
-/* harmony import */ var core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.object.keys */ "./node_modules/core-js/modules/es.object.keys.js");
-/* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
-/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
-/* harmony import */ var ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ceres/app/components/itemList/CategoryImageCarousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/CategoryImageCarousel.vue");
-/* harmony import */ var ceres_app_components_itemList_ItemStoreSpecial_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ceres/app/components/itemList/ItemStoreSpecial.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/ItemStoreSpecial.vue");
+/* harmony import */ var core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! core-js/modules/es.array.includes */ "./node_modules/core-js/modules/es.array.includes.js");
+/* harmony import */ var core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_array_includes__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! core-js/modules/es.number.constructor */ "./node_modules/core-js/modules/es.number.constructor.js");
+/* harmony import */ var core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_number_constructor__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! core-js/modules/es.object.get-own-property-descriptor */ "./node_modules/core-js/modules/es.object.get-own-property-descriptor.js");
+/* harmony import */ var core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! core-js/modules/es.object.get-own-property-descriptors */ "./node_modules/core-js/modules/es.object.get-own-property-descriptors.js");
+/* harmony import */ var core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! core-js/modules/es.object.keys */ "./node_modules/core-js/modules/es.object.keys.js");
+/* harmony import */ var core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_es_object_keys__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! core-js/modules/web.dom-collections.for-each */ "./node_modules/core-js/modules/web.dom-collections.for-each.js");
+/* harmony import */ var core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(core_js_modules_web_dom_collections_for_each__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ceres/app/components/itemList/CategoryImageCarousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/CategoryImageCarousel.vue");
+/* harmony import */ var ceres_app_components_itemList_ItemStoreSpecial_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ceres/app/components/itemList/ItemStoreSpecial.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/ItemStoreSpecial.vue");
+
 
 
 
@@ -188,13 +191,17 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 //
 //
 //
+//
+//
+//
+//
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
-    CategoryImageCarousel: ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    ItemStoreSpecial: ceres_app_components_itemList_ItemStoreSpecial_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
+    CategoryImageCarousel: ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
+    ItemStoreSpecial: ceres_app_components_itemList_ItemStoreSpecial_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
   },
   props: {
     decimalCount: {
@@ -225,6 +232,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     item: function item() {
       return this.itemData || this.itemDataRef;
     },
+    isBook: function isBook() {
+      return [34, 3384].includes(this.$store.state.navigation.currentCategory.id);
+    },
 
     /**
      * returns itemData.item.storeSpecial
@@ -248,7 +258,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     urlWithVariationId: function urlWithVariationId() {
       return !this.$ceres.config.item.showPleaseSelect || this.$ceres.initialPleaseSelect == 0;
     }
-  }, Object(vuex__WEBPACK_IMPORTED_MODULE_8__["mapState"])({
+  }, Object(vuex__WEBPACK_IMPORTED_MODULE_9__["mapState"])({
     showNetPrices: function showNetPrices(state) {
       return state.basket.showNetPrices;
     }
@@ -369,7 +379,7 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n                    " +
+                    "\n                        " +
                       _vm._s(_vm._f("itemName")(_vm.item))
                   ),
                   _vm._l(_vm.item.groupedAttributes, function(attribute) {
@@ -388,51 +398,44 @@ var render = function() {
                 2
               ),
               _vm._v(" "),
-              this.$store.state.navigation.currentCategory.id == 34
+              _vm.isBook
                 ? _c("div", { staticClass: "item-details__book-details" }, [
-                    _vm._v(
-                      "\n                    ONEDOT\n                    "
-                    ),
-                    _vm.item.texts.name2
-                      ? _c("span", { staticClass: "thumb-content__author" }, [
+                    _vm.item.texts.name3
+                      ? _c("span", { staticClass: "item-details__subtitle" }, [
                           _vm._v(
-                            "\n                        " +
-                              _vm._s(_vm.item.texts.name2) +
-                              "\n                    "
+                            '\n                            "' +
+                              _vm._s(_vm.item.texts.name3) +
+                              '"\n                        '
                           )
                         ])
                       : _vm._e(),
                     _vm._v(" "),
-                    _vm.item.texts.name3
-                      ? _c("span", { staticClass: "thumb-content__subtitle" }, [
+                    _vm.item.texts.name2
+                      ? _c("span", { staticClass: "item-details__author" }, [
                           _vm._v(
-                            "\n                        " +
-                              _vm._s(_vm.item.texts.name3) +
-                              "\n                    "
+                            "\n                            von " +
+                              _vm._s(_vm.item.texts.name2) +
+                              "\n                        "
+                          )
+                        ])
+                      : _vm._e(),
+                    _vm._v(" "),
+                    _vm.item.texts.shortDescription
+                      ? _c("span", { staticClass: "item-details__short" }, [
+                          _vm._v(
+                            "\n                            von " +
+                              _vm._s(_vm.item.texts.shortDescription) +
+                              "\n                        "
                           )
                         ])
                       : _vm._e(),
                     _vm._v(" "),
                     _vm.item.variation.availability
-                      ? _c(
-                          "span",
-                          {
-                            class:
-                              "availability badge availability_" +
-                              _vm.item.variation.availability.id
-                          },
-                          [
-                            _c("span", [
-                              _vm._v(
-                                "\n                            " +
-                                  _vm._s(
-                                    _vm.item.variation.availability.names.name
-                                  ) +
-                                  "\n                        "
-                              )
-                            ])
-                          ]
-                        )
+                      ? _c("span", {
+                          class:
+                            "availability badge availability_" +
+                            _vm.item.variation.availability.id
+                        })
                       : _vm._e()
                   ])
                 : _vm._e(),
@@ -452,7 +455,7 @@ var render = function() {
                           _vm.item.prices.specialOffer
                             ? _c("del", { staticClass: "crossprice" }, [
                                 _vm._v(
-                                  "\n                                " +
+                                  "\n                                    " +
                                     _vm._s(
                                       _vm._f("itemCrossPrice")(
                                         _vm.item.prices.default.unitPrice
@@ -460,18 +463,18 @@ var render = function() {
                                         true
                                       )
                                     ) +
-                                    "\n                            "
+                                    "\n                                "
                                 )
                               ])
                             : _c("del", { staticClass: "crossprice" }, [
                                 _vm._v(
-                                  "\n                                " +
+                                  "\n                                    " +
                                     _vm._s(
                                       _vm._f("itemCrossPrice")(
                                         _vm.item.prices.rrp.unitPrice.formatted
                                       )
                                     ) +
-                                    "\n                            "
+                                    "\n                                "
                                 )
                               ])
                         ])
@@ -484,14 +487,14 @@ var render = function() {
                         _vm.item.item.itemType === "set"
                           ? [
                               _vm._v(
-                                "\n                                " +
+                                "\n                                    " +
                                   _vm._s(
                                     _vm.$translate(
                                       "Ceres::Template.itemSetPrice",
                                       { price: _vm.itemSetPrice }
                                     )
                                   ) +
-                                  " *\n                            "
+                                  " *\n                                "
                               )
                             ]
                           : !!_vm.item.item &&
@@ -499,19 +502,19 @@ var render = function() {
                             _vm.$ceres.isCheapestSorting
                           ? [
                               _vm._v(
-                                "\n                                 " +
+                                "\n                                     " +
                                   _vm._s(
                                     _vm.$translate(
                                       "Ceres::Template.categoryItemFromPrice",
                                       { price: _vm.itemPrice }
                                     )
                                   ) +
-                                  " *\n                            "
+                                  " *\n                                "
                               )
                             ]
                           : [
                               _vm._v(
-                                "\n                                " +
+                                "\n                                    " +
                                   _vm._s(
                                     _vm._f("specialOffer")(
                                       _vm.item.prices.default.unitPrice
@@ -521,7 +524,7 @@ var render = function() {
                                       "formatted"
                                     )
                                   ) +
-                                  " *\n                            "
+                                  " *\n                                "
                               )
                             ]
                       ],
@@ -587,7 +590,7 @@ var render = function() {
               }),
               _vm._v(" "),
               _c("div", { staticClass: "vat small text-muted" }, [
-                _vm._v("\n                    * "),
+                _vm._v("\n                        * "),
                 _vm.showNetPrices
                   ? _c("span", [
                       _vm._v(
@@ -600,9 +603,9 @@ var render = function() {
                       )
                     ]),
                 _vm._v(
-                  "\n                    " +
+                  "\n                        " +
                     _vm._s(_vm.$translate("Ceres::Template.itemExclusive")) +
-                    "\n                    "
+                    "\n                        "
                 ),
                 _vm.$ceres.config.global.shippingCostsCategoryId > 0
                   ? _c(
@@ -644,7 +647,7 @@ var render = function() {
                     )
               ]),
               _vm._v(" "),
-              this.$store.state.navigation.currentCategory.id == 34
+              _vm.isBook
                 ? _c("div", { staticClass: "item-details__book-btn" }, [
                     _c(
                       "button",
@@ -660,11 +663,11 @@ var render = function() {
                       },
                       [
                         _vm._v(
-                          "\n                        " +
+                          "\n                            " +
                             _vm._s(
                               _vm.$translate("Ceres::Template.itemShowItem")
                             ) +
-                            "\n                    "
+                            "\n                        "
                         )
                       ]
                     )

@@ -56,19 +56,23 @@
 
                     </a>
 
-                    <div v-if="this.$store.state.navigation.currentCategory.id == 34" class="item-details__book-details">
-                        ONEDOT
-                        <span v-if="item.texts.name2" class="thumb-content__author">
-                            {{ item.texts.name2 }}
+                    <div v-if="isBook"  class="item-details__book-details">
+
+                        <span v-if="item.texts.name3" class="item-details__subtitle">
+                            "{{ item.texts.name3 }}"
                         </span>
-                        <span v-if="item.texts.name3" class="thumb-content__subtitle">
-                            {{ item.texts.name3 }}
+                        <span v-if="item.texts.name2" class="item-details__author">
+                            von {{ item.texts.name2 }}
+                        </span>
+
+                        <span v-if="item.texts.shortDescription" class="item-details__short">
+                            von {{ item.texts.shortDescription }}
                         </span>
 
                         <span v-if="item.variation.availability" :class="'availability badge availability_' + item.variation.availability.id">
-                            <span>
-                                {{ item.variation.availability.names.name }}
-                            </span>
+<!--                            <span>-->
+<!--                                {{ item.variation.availability.names.name }}-->
+<!--                            </span>-->
                         </span>
                     </div>
 
@@ -131,7 +135,7 @@
                         <a v-else :title="$translate('Ceres::Template.itemShippingCosts')">{{ $translate("Ceres::Template.itemShippingCosts") }}</a>
                     </div>
 
-                    <div v-if="this.$store.state.navigation.currentCategory.id == 34" class="item-details__book-btn">
+                    <div v-if="isBook" class="item-details__book-btn">
                         <button type="button" class="btn btn-primary btn-appearance item-details__showItem" @click="directToItem()">
                             {{ $translate("Ceres::Template.itemShowItem") }}
                         </button>
@@ -194,6 +198,10 @@ export default {
         item()
         {
             return this.itemData || this.itemDataRef;
+        },
+
+        isBook() {
+            return [34,3384].includes(this.$store.state.navigation.currentCategory.id);
         },
 
         /**

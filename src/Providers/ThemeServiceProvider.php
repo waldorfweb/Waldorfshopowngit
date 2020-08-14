@@ -6,7 +6,7 @@ use Plenty\Plugin\Templates\Twig;
 use IO\Helper\TemplateContainer;
 use IO\Helper\ResourceContainer;
 use IO\Extensions\Functions\Partial;
-use IO\Services\ItemSearch\Helper\ResultFieldTemplate;
+use Plenty\Modules\Webshop\ItemSearch\Helpers\ResultFieldTemplate;
 use Plenty\Plugin\ConfigRepository;
 use IO\Helper\ComponentContainer;
 
@@ -305,15 +305,15 @@ class ThemeServiceProvider extends ServiceProvider
                 return false;
             }, self::PRIORITY);
         }
+
         // Override list item result fields
-        if (in_array("list_item", $enabledResultFields) || in_array("all", $enabledResultFields))
+        $resultFieldTemplate = pluginApp(ResultFieldTemplate::class);
+
+        if (in_array('list_item', $enabledResultFields) || in_array('all', $enabledResultFields))
         {
-            $dispatcher->listen( 'IO.ResultFields.ListItem', function(ResultFieldTemplate $templateContainer)
-            {
-                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'Waldorfshop::ResultFields.ListItem');
-                return false;
-            }, self::PRIORITY);
+            $resultFieldTemplate->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'Waldorfshop::ResultFields.ListItem');
         }
+
         // Override single item view result fields
         if (in_array("single_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
