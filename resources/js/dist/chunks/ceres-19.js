@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[19],{
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue":
-/*!**********************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue ***!
-  \**********************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue":
+/*!******************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue ***!
+  \******************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StepByStepNavigation.vue?vue&type=template&id=9c787830& */ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830&");
-/* harmony import */ var _StepByStepNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StepByStepNavigation.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Coupon.vue?vue&type=template&id=665ccd63& */ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63&");
+/* harmony import */ var _Coupon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Coupon.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -20,9 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _StepByStepNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Coupon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -32,53 +32,54 @@ var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_I
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue"
+component.options.__file = "node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js&":
-/*!***********************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js& ***!
-  \***********************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_StepByStepNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./StepByStepNavigation.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_StepByStepNavigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_Coupon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./Coupon.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_Coupon_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830&":
-/*!*****************************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830& ***!
-  \*****************************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63&":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63& ***!
+  \*************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./StepByStepNavigation.vue?vue&type=template&id=9c787830& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./Coupon.vue?vue&type=template&id=665ccd63& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_StepByStepNavigation_vue_vue_type_template_id_9c787830___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Coupon_vue_vue_type_template_id_665ccd63___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../services/TranslationService */ "./node_modules/Ceres/resources/js/src/app/services/TranslationService.js");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 //
 //
 //
@@ -100,96 +101,152 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
+
+const NotificationService = __webpack_require__(/*! ../../services/NotificationService */ "./node_modules/Ceres/resources/js/src/app/services/NotificationService.js");
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
+
     props: {
-        categoryId:
-        {
-            type: Number,
-            required: true
-        },
-        chunkSize:
-        {
-            type: Number,
-            default: 8
-        },
-        imageSource:
+        template:
         {
             type: String,
-            default: "imagePath"
-        },
-        columns:
-        {
-            type: Number,
-            default: 4
-        },
-        columnsMax:
-        {
-            type: Number,
-            default: 12
-        },
-        childrenCount:
-        {
-            type: Number,
-            required: true
+            default: "#vue-coupon"
         }
     },
 
     data()
     {
         return {
-            isWaiting: false,
-            isInitiallyLoaded: false
+            waiting: false,
+            couponCode: ""
         };
     },
 
-    computed:
+    watch:
+    {
+        redeemedCouponCode(val)
         {
-            columnDivider()
-            {
-                return this.columnsMax / this.columns;
-            },
+            this.couponCode = val;
+        }
+    },
 
-            ...Object(vuex__WEBPACK_IMPORTED_MODULE_0__["mapState"])({
-                categoryChildren: state => state.navigation.categoryChildren
-            })
+    computed:
+    {
+        disabled()
+        {
+            if (this.redeemedCouponCode)
+            {
+                return true;
+            }
+
+            return false;
         },
 
-    created()
+        ...Object(vuex__WEBPACK_IMPORTED_MODULE_1__["mapState"])({
+            redeemedCouponCode: state => state.basket.data.couponCode,
+            isBasketLoading: state => state.basket.isBasketLoading,
+            isCheckoutReadonly: state => state.checkout.readOnly
+        })
+    },
+
+    mounted()
     {
-        this.loadChunk();
+        this.$nextTick(() =>
+        {
+            if (this.redeemedCouponCode)
+            {
+                this.couponCode = this.redeemedCouponCode;
+            }
+        });
     },
 
     methods:
     {
-        loadChunk()
+        redeemCode()
         {
-            if (!this.isWaiting)
-            {
-                this.isWaiting = true;
+            // remove whitespaces
+            this.couponCode = this.couponCode.replace(/\s/g, "");
 
-                this.$store.dispatch("loadCategoryChildrenChunk",
-                    { categoryId: this.categoryId, size: this.chunkSize })
-                    .finally(() =>
+            if (this.couponCode.length > 0)
+            {
+                this.waiting = true;
+
+                this.$store.dispatch("redeemCouponCode", this.couponCode).then(
+                    response =>
                     {
-                        this.isWaiting = false;
-                        this.isInitiallyLoaded = true;
+                        this.waiting = false;
+                        NotificationService.success(
+                            _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template.couponRedeemSuccess")
+                        ).closeAfter(10000);
+                    },
+                    error =>
+                    {
+                        this.waiting = false;
+                        NotificationService.error(this.getCouponRedemtionErrorMessage(error)).closeAfter(10000);
                     });
+            }
+            else
+            {
+                NotificationService.error(
+                    _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template.couponIsEmpty")
+                ).closeAfter(10000);
             }
         },
 
-        getCategoryUrl(url)
+        removeCode()
         {
-            const trailingSlash = url[0] === "/" ? "" : "/";
-            const prefix = App.urls.includeLanguage ? `/${ App.language }${ trailingSlash }` : "";
+            this.waiting = true;
 
-            return prefix + url;
+            this.$store.dispatch("removeCouponCode", this.couponCode).then(
+                response =>
+                {
+                    this.waiting = false;
+                    NotificationService.success(
+                        _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template.couponRemoveSuccess")
+                    ).closeAfter(10000);
+                },
+                error =>
+                {
+                    this.waiting = false;
+                    NotificationService.error(
+                        _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template.couponRemoveFailure")
+                    ).closeAfter(10000);
+                });
+        },
+
+        getCouponRedemtionErrorMessage(error)
+        {
+            const errorMessageKeys = {
+                18:     "couponMinOrderValueNotReached",
+                51:     "couponnotUsableForSpecialOffer",
+                70:     "couponAlreadyUsedOrInvalidCouponCode",
+                78:     "couponCampaignExpired",
+                126:    "couponNoMatchingItemInBasket",
+                329:    "couponOnlySubscription",
+                330:    "couponOnlySingleUsage",
+                331:    "couponNoOpenAmount",
+                332:    "couponExpired",
+                334:    "couponOnlyForNewCustomers",
+                335:    "couponOnlyForExistingCustomers",
+                336:    "couponWrongCustomerGroup",
+                337:    "couponWrongCustomerType",
+                338:    "couponNoCustomerTypeProvided",
+                339:    "couponNoCustomerTypeActivated",
+                340:    "couponNoCustomerGroupActivated",
+                341:    "couponCampaignNoWebstoreActivated",
+                342:    "couponCampaignWrongWebstoreId",
+                343:    "couponCampaignNoWebstoreIdGiven"
+            };
+
+            if (error && error.error && error.code && errorMessageKeys[error.code])
+            {
+                return _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template." + errorMessageKeys[error.code]);
+            }
+
+            return _services_TranslationService__WEBPACK_IMPORTED_MODULE_0__["default"].translate("Ceres::Template.couponRedeemFailure");
         }
     }
 });
@@ -197,10 +254,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830&":
-/*!***********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue?vue&type=template&id=9c787830& ***!
-  \***********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63&":
+/*!*******************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue?vue&type=template&id=665ccd63& ***!
+  \*******************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -212,121 +269,115 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    [
-      !_vm.isInitiallyLoaded ? _vm._t("default") : _vm._e(),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "row" },
-        [
-          _vm._l(_vm.categoryChildren, function(category) {
-            return _c(
-              "div",
-              { staticClass: "mb-3", class: "col-" + _vm.columnDivider },
-              [
-                _c(
-                  "a",
-                  {
-                    attrs: {
-                      href: _vm.getCategoryUrl(category.url),
-                      title:
-                        category.details[0].metaTitle ||
-                        category.details[0].name
-                    }
+  return _c("div", { staticClass: "cmp" }, [
+    _vm.isCheckoutReadonly &&
+    !!_vm.$translate("Ceres::Template.couponReadonlyInfoText")
+      ? _c("p", [
+          _vm._v("\n        " + _vm._s(_vm.couponReadonlyInfoText) + "\n    ")
+        ])
+      : _vm._e(),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        class: {
+          "input-group": true,
+          "component-loading": _vm.isCheckoutReadonly,
+          "is-loading": _vm.isCheckoutReadonly
+        }
+      },
+      [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.couponCode,
+              expression: "couponCode"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            placeholder: _vm.$translate("Ceres::Template.couponEnterCoupon"),
+            disabled: _vm.disabled || _vm.isCheckoutReadonly
+          },
+          domProps: { value: _vm.couponCode },
+          on: {
+            keyup: function($event) {
+              if (
+                !$event.type.indexOf("key") &&
+                _vm._k($event.keyCode, "enter", 13, $event.key, "Enter")
+              ) {
+                return null
+              }
+              return _vm.redeemCode()
+            },
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.couponCode = $event.target.value
+            }
+          }
+        }),
+        _vm._v(" "),
+        _c("span", { staticClass: "input-group-btn" }, [
+          !_vm.disabled
+            ? _c(
+                "button",
+                {
+                  staticClass: "btn btn-medium btn-primary btn-appearance",
+                  attrs: {
+                    type: "button",
+                    disabled: _vm.waiting || _vm.isCheckoutReadonly
                   },
-                  [
-                    _c(
-                      "div",
-                      {
-                        staticClass: "nav-item border d-flex",
-                        class: { "no-img": _vm.imageSource === "none" }
-                      },
-                      [
-                        category.details[0][_vm.imageSource]
-                          ? _c("div", { staticClass: "prop-1-1" }, [
-                              _vm.imageSource !== "none"
-                                ? _c("img", {
-                                    attrs: {
-                                      src:
-                                        "/documents/" +
-                                        category.details[0][_vm.imageSource],
-                                      alt:
-                                        category.details[0].metaTitle ||
-                                        category.details[0].name
-                                    }
-                                  })
-                                : _vm._e()
-                            ])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "nav-text d-flex align-center p-2" },
-                          [
-                            _c(
-                              "span",
-                              {
-                                staticClass:
-                                  "text-appearance mx-auto text-truncate"
-                              },
-                              [_vm._v(_vm._s(category.details[0].name))]
-                            )
-                          ]
-                        )
-                      ]
-                    )
-                  ]
-                )
-              ]
-            )
-          }),
-          _vm._v(" "),
-          _vm.categoryChildren.length &&
-          _vm.categoryChildren.length < _vm.childrenCount
-            ? _c("div", { staticClass: "mb-3 mx-auto" }, [
-                _c(
-                  "button",
-                  {
-                    staticClass: "btn btn-appearance px-4 py-3",
-                    class: { disabled: _vm.isWaiting },
-                    attrs: { type: "button" },
-                    on: {
-                      click: function($event) {
-                        return _vm.loadChunk()
-                      }
+                  on: {
+                    click: function($event) {
+                      return _vm.redeemCode()
                     }
+                  }
+                },
+                [
+                  _c("icon", { attrs: { icon: "gift", loading: _vm.waiting } }),
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(_vm.$translate("Ceres::Template.couponRedeem")) +
+                      "\n            "
+                  )
+                ],
+                1
+              )
+            : _c(
+                "button",
+                {
+                  staticClass: "btn btn-medium btn-danger",
+                  attrs: {
+                    type: "button",
+                    disabled: _vm.waiting || _vm.isCheckoutReadonly
                   },
-                  [
-                    _c("span", [
-                      _vm._v(
-                        _vm._s(
-                          _vm.$translate(
-                            "Ceres::Template.stepByStepNavigationShowMore"
-                          )
-                        )
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _c("icon", {
-                      staticClass: "fa-fw my-1",
-                      attrs: {
-                        icon: "plus-circle",
-                        "class-loading": "fa-repeat"
-                      }
-                    })
-                  ],
-                  1
-                )
-              ])
-            : _vm._e()
-        ],
-        2
-      )
-    ],
-    2
-  )
+                  on: {
+                    click: function($event) {
+                      return _vm.removeCode()
+                    }
+                  }
+                },
+                [
+                  _c("icon", {
+                    attrs: { icon: "trash", loading: _vm.waiting }
+                  }),
+                  _vm._v(
+                    "\n                " +
+                      _vm._s(_vm.$translate("Ceres::Template.couponRemove")) +
+                      "\n            "
+                  )
+                ],
+                1
+              )
+        ])
+      ]
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

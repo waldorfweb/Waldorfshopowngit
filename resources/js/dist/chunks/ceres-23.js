@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[23],{
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue":
-/*!*******************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue ***!
-  \*******************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue":
+/*!*****************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue ***!
+  \*****************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ResetPasswordForm.vue?vue&type=template&id=3fcea0d9& */ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9&");
-/* harmony import */ var _ResetPasswordForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ResetPasswordForm.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js&");
+/* harmony import */ var _ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ChangeEmailForm.vue?vue&type=template&id=444d505b& */ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b&");
+/* harmony import */ var _ChangeEmailForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ChangeEmailForm.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -20,9 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ResetPasswordForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _ChangeEmailForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -32,57 +32,54 @@ var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_I
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue"
+component.options.__file = "node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js&":
-/*!********************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_ResetPasswordForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./ResetPasswordForm.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_ResetPasswordForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_ChangeEmailForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./ChangeEmailForm.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_ChangeEmailForm_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9&":
-/*!**************************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9& ***!
-  \**************************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b&":
+/*!************************************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b& ***!
+  \************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./ResetPasswordForm.vue?vue&type=template&id=3fcea0d9& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./ChangeEmailForm.vue?vue&type=template&id=444d505b& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ResetPasswordForm_vue_vue_type_template_id_3fcea0d9___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_ChangeEmailForm_vue_vue_type_template_id_444d505b___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _services_ValidationService__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../services/ValidationService */ "./node_modules/Ceres/resources/js/src/app/services/ValidationService.js");
-/* harmony import */ var _services_UrlService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/UrlService */ "./node_modules/Ceres/resources/js/src/app/services/UrlService.js");
-/* harmony import */ var _helper_utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../helper/utils */ "./node_modules/Ceres/resources/js/src/app/helper/utils.js");
-/* harmony import */ var _services_ApiService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/ApiService */ "./node_modules/Ceres/resources/js/src/app/services/ApiService.js");
-/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/NotificationService */ "./node_modules/Ceres/resources/js/src/app/services/NotificationService.js");
+/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../services/NotificationService */ "./node_modules/Ceres/resources/js/src/app/services/NotificationService.js");
+/* harmony import */ var _services_ApiService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/ApiService */ "./node_modules/Ceres/resources/js/src/app/services/ApiService.js");
 //
 //
 //
@@ -102,35 +99,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
-
 
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-
-    name: "reset-password-form",
 
     props: {
         contactId:
@@ -142,83 +115,58 @@ __webpack_require__.r(__webpack_exports__);
         {
             type: String,
             required: true
+        },
+        newMail:
+        {
+            type: String,
+            required: true
         }
     },
-
     data()
     {
         return {
-            passwordFirst: "",
-            passwordSecond: "",
+            password: "",
             isDisabled: false
         };
     },
 
     methods: {
-
-        validatePassword()
-        {
-
-            _services_ValidationService__WEBPACK_IMPORTED_MODULE_0__["default"].validate(this.$refs.resetPasswordForm)
-                .done(() =>
-                {
-                    this.saveNewPassword();
-                })
-                .fail(invalidFields =>
-                {
-                    _services_ValidationService__WEBPACK_IMPORTED_MODULE_0__["default"].markInvalidFields(invalidFields, "has-error");
-                    const validation = !Object(_helper_utils__WEBPACK_IMPORTED_MODULE_2__["isNullOrUndefined"])(invalidFields[0]) ? invalidFields[0].dataset.validate : null;
-
-                    if (validation === "password")
-                    {
-                        _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].error(
-                            this.$translate("Ceres::Template.resetPwInvalidPassword")
-                        );
-                    }
-                    else if (validation === "ref")
-                    {
-                        _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].error(
-                            this.$translate("Ceres::Template.resetPwRepeatNewPassword")
-                        );
-                    }
-                });
-        },
-
-        saveNewPassword()
+        /**
+         * Send the login data
+         */
+        submit()
         {
             this.isDisabled = true;
 
-            _services_ApiService__WEBPACK_IMPORTED_MODULE_3__["default"].post("/rest/io/customer/password", { password: this.passwordFirst, password2: this.passwordSecond, contactId: this.contactId, hash: this.hash })
-                .done(() =>
+            _services_ApiService__WEBPACK_IMPORTED_MODULE_1__["default"].put("/rest/io/customer/mail/" + this.contactId, { password: this.password, hash: this.hash })
+                .done(response =>
                 {
-
-                    Object(_services_UrlService__WEBPACK_IMPORTED_MODULE_1__["navigateTo"])(window.location.origin);
-
-                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].success(
-                        this.$translate("Ceres::Template.resetPwChangePasswordSuccessful")
-                    ).closeAfter(3000);
-
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].success(
+                        this.$translate("Ceres::Template.myAccountChangeEmailSuccessful")
+                    );
+                    window.location.assign(window.location.origin);
                 })
                 .fail(() =>
                 {
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].error(
+                        this.$translate("Ceres::Template.myAccountChangeEmailFailed")
+                    ).closeAfter(10000);
+                })
+                .always(() =>
+                {
                     this.isDisabled = false;
-
-                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_4__["default"].error(
-                        this.$translate("Ceres::Template.resetPwChangePasswordFailed")
-                    ).closeAfter(5000);
                 });
         }
     }
-
 });
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9&":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue?vue&type=template&id=3fcea0d9& ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b&":
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue?vue&type=template&id=444d505b& ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -233,198 +181,85 @@ var render = function() {
   return _c(
     "form",
     {
-      ref: "resetPasswordForm",
-      staticClass: "w-100 clearfix",
-      attrs: { method: "post" }
+      staticClass: "clearfix",
+      attrs: { method: "post" },
+      on: {
+        submit: function($event) {
+          $event.preventDefault()
+          return _vm.submit()
+        }
+      }
     },
     [
-      _c(
-        "div",
-        {
-          staticClass: "input-feedback-container",
-          attrs: { "data-validate": "password" }
-        },
-        [
-          _c(
-            "div",
-            { staticClass: "input-unit" },
-            [
-              _c("popper", {
-                ref: "passwordHint",
-                attrs: { trigger: "focus", placement: "bottom" },
-                scopedSlots: _vm._u([
-                  {
-                    key: "handle",
-                    fn: function() {
-                      return [
-                        _c("input", {
-                          directives: [
-                            {
-                              name: "model",
-                              rawName: "v-model",
-                              value: _vm.passwordFirst,
-                              expression: "passwordFirst"
-                            }
-                          ],
-                          attrs: {
-                            type: "password",
-                            name: "password",
-                            autocomplete: "new-password",
-                            id: _vm._uid + "password_first"
-                          },
-                          domProps: { value: _vm.passwordFirst },
-                          on: {
-                            input: function($event) {
-                              if ($event.target.composing) {
-                                return
-                              }
-                              _vm.passwordFirst = $event.target.value
-                            }
-                          }
-                        })
-                      ]
-                    },
-                    proxy: true
-                  },
-                  {
-                    key: "title",
-                    fn: function() {
-                      return [
-                        _vm._v(
-                          "\n                    " +
-                            _vm._s(
-                              _vm.$translate(
-                                "Ceres::Template.resetPwPasswordHintTitle"
-                              )
-                            ) +
-                            "\n                "
-                        )
-                      ]
-                    },
-                    proxy: true
-                  },
-                  {
-                    key: "content",
-                    fn: function() {
-                      return [
-                        _c("ul", { staticClass: "pl-3" }, [
-                          _c("li", [
-                            _vm._v(
-                              _vm._s(
-                                _vm.$translate(
-                                  "Ceres::Template.resetPwPasswordHintLength"
-                                )
-                              )
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _vm._v(
-                              _vm._s(
-                                _vm.$translate(
-                                  "Ceres::Template.resetPwPasswordHintDigit"
-                                )
-                              )
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("li", [
-                            _vm._v(
-                              _vm._s(
-                                _vm.$translate(
-                                  "Ceres::Template.resetPwPasswordHintChar"
-                                )
-                              )
-                            )
-                          ])
-                        ])
-                      ]
-                    },
-                    proxy: true
-                  }
-                ])
-              }),
-              _vm._v(" "),
-              _c("label", { attrs: { for: _vm._uid + "password_first" } }, [
-                _vm._v(
-                  _vm._s(_vm.$translate("Ceres::Template.resetPwNewPassword")) +
-                    "*"
-                )
-              ])
-            ],
-            1
-          )
-        ]
-      ),
+      _c("div", { staticClass: "input-unit mt-3" }, [
+        _c(
+          "label",
+          { staticClass: "disabled", attrs: { for: "new-mail" + _vm._uid } },
+          [_vm._v(_vm._s(_vm.$translate("Ceres::Template.myAccountNewEmail")))]
+        ),
+        _vm._v(" "),
+        _c("input", {
+          staticClass: "form-control",
+          attrs: {
+            type: "email",
+            name: "email",
+            id: "new-mail" + _vm._uid,
+            disabled: ""
+          },
+          domProps: { value: _vm.newMail }
+        })
+      ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass: "input-feedback-container",
-          attrs: { "data-validate": "ref" }
-        },
-        [
-          _c("div", { staticClass: "input-unit" }, [
-            _c("input", {
-              directives: [
-                {
-                  name: "model",
-                  rawName: "v-model",
-                  value: _vm.passwordSecond,
-                  expression: "passwordSecond"
-                }
-              ],
-              attrs: {
-                type: "password",
-                name: "password",
-                autocomplete: "new-password",
-                id: _vm._uid + "password_second",
-                "data-validate-ref": "#" + _vm._uid + "password_first"
-              },
-              domProps: { value: _vm.passwordSecond },
-              on: {
-                input: function($event) {
-                  if ($event.target.composing) {
-                    return
-                  }
-                  _vm.passwordSecond = $event.target.value
-                }
+      _c("div", { staticClass: "input-unit" }, [
+        _c("label", { attrs: { for: "password" + _vm._uid } }, [
+          _vm._v(_vm._s(_vm.$translate("Ceres::Template.loginPassword")))
+        ]),
+        _vm._v(" "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.password,
+              expression: "password"
+            }
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "password",
+            name: "password",
+            autocomplete: "current-password",
+            id: "password" + _vm._uid
+          },
+          domProps: { value: _vm.password },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
               }
-            }),
-            _vm._v(" "),
-            _c("label", { attrs: { for: _vm._uid + "password_second" } }, [
-              _vm._v(
-                _vm._s(
-                  _vm.$translate("Ceres::Template.resetPwRepeatPassword")
-                ) + "*"
-              )
-            ])
-          ])
-        ]
-      ),
+              _vm.password = $event.target.value
+            }
+          }
+        })
+      ]),
       _vm._v(" "),
       _c(
         "button",
         {
-          staticClass: "btn btn-primary btn-appearance btn-large float-right",
-          attrs: { disabled: _vm.isDisabled },
-          on: {
-            click: function($event) {
-              $event.preventDefault()
-              return _vm.validatePassword($event)
-            }
-          }
+          staticClass:
+            "btn btn-primary btn-appearance float-right btn-medium btn-xs-max-width",
+          attrs: { type: "submit", disabled: _vm.isDisabled }
         },
         [
           _c("span", [
-            _vm._v(_vm._s(_vm.$translate("Ceres::Template.resetPwSave")))
+            _vm._v(
+              _vm._s(_vm.$translate("Ceres::Template.myAccountChangeEmail"))
+            )
           ]),
           _vm._v(" "),
-          _c("i", {
-            staticClass: "fa fa-floppy-o",
-            attrs: { "aria-hidden": "true" }
-          })
-        ]
+          _c("icon", { attrs: { icon: "envelope", loading: _vm.isDisabled } })
+        ],
+        1
       )
     ]
   )

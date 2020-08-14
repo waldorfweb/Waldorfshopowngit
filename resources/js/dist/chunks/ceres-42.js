@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[42],{
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue":
-/*!************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue ***!
-  \************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue ***!
+  \********************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Carousel.vue?vue&type=template&id=23bd9354& */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354&");
-/* harmony import */ var _Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Carousel.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js&");
+/* harmony import */ var _EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EditCouponOverlay.vue?vue&type=template&id=50fdf9c6& */ "./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6&");
+/* harmony import */ var _EditCouponOverlay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditCouponOverlay.vue?vue&type=script&lang=js& */ "./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../../../../vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -20,9 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _EditCouponOverlay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -32,54 +32,55 @@ var component = Object(_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_I
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue"
+component.options.__file = "node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js&":
-/*!*************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js& ***!
-  \*************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./Carousel.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _vue_loader_lib_index_js_vue_loader_options_EditCouponOverlay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib??vue-loader-options!./EditCouponOverlay.vue?vue&type=script&lang=js& */ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_vue_loader_lib_index_js_vue_loader_options_EditCouponOverlay_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354&":
-/*!*******************************************************************************************************************!*\
-  !*** ./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354& ***!
-  \*******************************************************************************************************************/
+/***/ "./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6&":
+/*!***************************************************************************************************************************!*\
+  !*** ./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6& ***!
+  \***************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./Carousel.vue?vue&type=template&id=23bd9354& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../../../vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../../../vue-loader/lib??vue-loader-options!./EditCouponOverlay.vue?vue&type=template&id=50fdf9c6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_Carousel_vue_vue_type_template_id_23bd9354___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _vue_loader_lib_loaders_templateLoader_js_vue_loader_options_vue_loader_lib_index_js_vue_loader_options_EditCouponOverlay_vue_vue_type_template_id_50fdf9c6___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! owl.carousel */ "./node_modules/owl.carousel/dist/owl.carousel.js");
-/* harmony import */ var owl_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(owl_carousel__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../services/NotificationService */ "./node_modules/Ceres/resources/js/src/app/services/NotificationService.js");
+/* harmony import */ var _services_ModalService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../services/ModalService */ "./node_modules/Ceres/resources/js/src/app/services/ModalService.js");
+/* harmony import */ var _services_ApiService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/ApiService */ "./node_modules/Ceres/resources/js/src/app/services/ApiService.js");
 //
 //
 //
@@ -94,105 +95,313 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-    components: {
-        SlotComponent: {
-            functional: true,
-            render: (createElement, context) => context.data.attrs.vnode
+    props: {
+        orderItem: Object,
+
+        paymentStatus: {
+            type: String,
+            default: "unpaid"
+        },
+
+        orderAccessKey:
+        {
+            type: String,
+            default: ""
         }
     },
-
-    props: {
-        itemsPerPage: {
-            type: Number,
-            default: 4
-        }
+    
+    data()
+    {
+        return {
+            couponData: [],
+            isFinalized: this.orderItem.giftCard.hasPdf,
+            isLoading: false,
+            isFinalizing : false
+        };
     },
 
     computed:
     {
-        columnWidths()
+        pdfLink()
         {
-            const itemsPerPage = Math.min(Math.max(this.itemsPerPage, 1), 4);
+            let pdfLink = '/rest/online_store/gift_card/download_pdf/?orderId=' + this.orderItem.orderId + '&orderItemId=' + this.orderItem.id;
+            
+            if(this.orderAccessKey)
+            {
+                pdfLink += '&accessKey=' + this.orderAccessKey;
+            }
+ 
+            return pdfLink;
+        },
 
-            return [
-                "col-12",
-                itemsPerPage === 1 ? "col-sm-12" : "col-sm-6",
-                "col-md-" + (12 / itemsPerPage)
-            ];
+        isPaid()
+        {
+            return this.paymentStatus === "fullyPaid" || this.paymentStatus === "overpaid";
         }
     },
 
-    mounted()
+    created()
     {
-        this.$nextTick(() =>
+        for(let i=0; i < this.orderItem.quantity; i++)
         {
-            this.initializeCarousel();
-        });
-    },
-
-    updated()
-    {
-        this.initializeCarousel();
+            this.couponData.push({
+                sender: this.orderItem.giftCard.information[i].sender,
+                recipient: this.orderItem.giftCard.information[i].recipient,
+                content: this.orderItem.giftCard.information[i].content,
+                campaignCodeOrderId: this.orderItem.giftCard.information[i].id,
+                accessKey: this.orderAccessKey
+            });
+        }
     },
 
     methods:
     {
-        initializeCarousel()
+        submit()
         {
-            if (this.$slots.items && this.$slots.items[0].tag && this.$slots.items.length > this.itemsPerPage)
+            if (this.isFinalized || this.isLoading)
             {
-                const $owl = $(this.$refs.carouselContainer);
-
-                // do not render, if no html element is inside of the carousels container
-                if (!$owl.children().length)
-                {
-                    return;
-                }
-
-                $owl.owlCarousel({
-                    onInitialized(){
-                        $owl.find(".owl-carousel.owl-loaded").each(function() {
-                            $(this).trigger("refresh.owl.carousel");
-                        });
-                    },
-                    autoHeight: true,
-                    dots: true,
-                    items: this.itemsPerPage,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        576: {
-                            items: this.itemsPerPage > 1 ? 2 : 1
-                        },
-                        768: {
-                            items: this.itemsPerPage > 3 ? 3 : this.itemsPerPage
-                        },
-                        992: {
-                            items: this.itemsPerPage
-                        }
-                    },
-                    lazyLoad: false,
-                    loop: false,
-                    margin: 30,
-                    mouseDrag: true,
-                    nav: true,
-                    navClass: [
-                        "owl-single-item-nav left carousel-control list-control-special",
-                        "owl-single-item-nav right carousel-control list-control-special"
-                    ],
-                    navContainerClass: "",
-                    navText: [
-                        "<i class=\"owl-single-item-control fa fa-chevron-left\" aria-hidden=\"true\"></i>",
-                        "<i class=\"owl-single-item-control fa fa-chevron-right\" aria-hidden=\"true\"></i>"
-                    ],
-                    smartSpeed: 350
-                });
+                return;
             }
+
+            this.isLoading = true;
+
+            _services_ApiService__WEBPACK_IMPORTED_MODULE_2__["default"].put("/rest/online_store/gift_card/information", {giftCardInformation: this.couponData})
+                .done(response =>
+                {
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].success(
+                        this.$translate("Ceres::Template.couponChangeSuccess")
+                    ).closeAfter(3000);
+                })
+                .fail(() =>
+                {
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].error(
+                        this.$translate("Ceres::Template.couponChangeFailure")
+                    ).closeAfter(10000);
+                })
+                .always(() =>
+                {
+                    this.closeEditModal();
+                    this.isLoading = false;
+                });
+        },
+
+        finalize()
+        {
+            if (!this.isPaid || this.isLoading || this.isFinalizing)
+            {
+                return;
+            }
+            
+            this.isFinalizing = true;
+
+            _services_ApiService__WEBPACK_IMPORTED_MODULE_2__["default"].post("/rest/online_store/gift_card/generate_pdf", { orderId: this.orderItem.orderId, orderItemId: this.orderItem.id, accessKey: this.orderAccessKey})
+                .done(response =>
+                {
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].success(
+                        this.$translate("Ceres::Template.couponFinalizeSuccess")
+                    ).closeAfter(3000);
+                    
+                    window.open(this.pdfLink, '_blank');
+
+                    this.isFinalized = true;
+                })
+                .fail(() =>
+                {
+                    _services_NotificationService__WEBPACK_IMPORTED_MODULE_0__["default"].error(
+                        this.$translate("Ceres::Template.couponFinalizeFailure")
+                    ).closeAfter(10000);
+                })
+                .always(() =>
+                {
+                    this.closeConfirmModal();
+                    this.isFinalizing = false;
+                });
+        },
+
+        openConfirmModal()
+        {
+            if (this.isPaid)
+            {
+                _services_ModalService__WEBPACK_IMPORTED_MODULE_1__["default"].findModal(this.$refs.confirmFinalizationOverlay).show();
+            }
+        },
+
+        closeEditModal()
+        {
+            _services_ModalService__WEBPACK_IMPORTED_MODULE_1__["default"].findModal(this.$refs.editCouponOverlay).hide();
+        },
+
+        closeConfirmModal()
+        {
+            _services_ModalService__WEBPACK_IMPORTED_MODULE_1__["default"].findModal(this.$refs.confirmFinalizationOverlay).hide();
         }
     }
 });
@@ -200,10 +409,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354&":
-/*!*************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue?vue&type=template&id=23bd9354& ***!
-  \*************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6&":
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./node_modules/Ceres/resources/js/src/app/components/myAccount/EditCouponOverlay.vue?vue&type=template&id=50fdf9c6& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -215,39 +424,564 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "row" },
-    [
-      _vm.$slots.items && _vm.$slots.items.length > _vm.itemsPerPage
-        ? _c("div", { staticClass: "col-12 col-lg-12" }, [
+  return _c("div", { staticClass: "pb-3" }, [
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-12 col-sm-6" }, [
+        _c(
+          "button",
+          {
+            staticClass: "btn btn-primary btn-appearance btn-block",
+            attrs: {
+              type: "button",
+              "data-toggle": "modal",
+              "data-target": "#edit-coupon-overlay"
+            }
+          },
+          [
+            _c("span", [
+              _vm._v(_vm._s(_vm.$translate("Ceres::Template.couponEdit")))
+            ]),
+            _vm._v(" "),
+            _c("i", {
+              staticClass: "fa fa-gift default-float",
+              attrs: { "aria-hidden": "true" }
+            })
+          ]
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-12 col-sm-6" }, [
+        !_vm.isFinalized
+          ? _c(
+              "button",
+              {
+                directives: [
+                  {
+                    name: "tooltip",
+                    rawName: "v-tooltip",
+                    value: !_vm.isPaid,
+                    expression: "!isPaid"
+                  }
+                ],
+                staticClass: "btn btn-primary btn-appearance btn-block",
+                class: { disabled: _vm.isLoading || !_vm.isPaid },
+                attrs: {
+                  type: "button",
+                  "data-placement": "top",
+                  title: _vm.$translate("Ceres::Template.couponNotPaid")
+                },
+                on: {
+                  click: function($event) {
+                    return _vm.openConfirmModal()
+                  }
+                }
+              },
+              [
+                _c("span", [
+                  _vm._v(
+                    _vm._s(_vm.$translate("Ceres::Template.couponFinalize"))
+                  )
+                ]),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass: "fa fa-check default-float",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ]
+            )
+          : _vm._e(),
+        _vm._v(" "),
+        _vm.isFinalized && _vm.isPaid
+          ? _c(
+              "a",
+              {
+                staticClass: "btn btn-primary btn-appearance btn-block",
+                attrs: {
+                  href: _vm.pdfLink,
+                  target: "_blank",
+                  title: _vm.$translate("Ceres::Template.couponDownload")
+                }
+              },
+              [
+                _c("span", [
+                  _vm._v(
+                    _vm._s(_vm.$translate("Ceres::Template.couponDownload"))
+                  )
+                ]),
+                _vm._v(" "),
+                _c("i", {
+                  staticClass: "fa fa-download default-float",
+                  attrs: { "aria-hidden": "true" }
+                })
+              ]
+            )
+          : _vm._e()
+      ])
+    ]),
+    _vm._v(" "),
+    _c(
+      "form",
+      {
+        attrs: { method: "post" },
+        on: {
+          submit: function($event) {
+            $event.preventDefault()
+            return _vm.submit()
+          }
+        }
+      },
+      [
+        _c(
+          "div",
+          {
+            ref: "editCouponOverlay",
+            staticClass: "modal fade",
+            attrs: { id: "edit-coupon-overlay", tabindex: "-1", role: "dialog" }
+          },
+          [
             _c(
               "div",
               {
-                ref: "carouselContainer",
                 staticClass:
-                  "list-item-carousel owl-carousel owl-theme owl-single-item"
+                  "modal-dialog modal-lg mx-auto modal-dialog-scrollable",
+                attrs: { role: "document" }
               },
-              _vm._l(_vm.$slots.items, function(item, index) {
-                return _c("slot-component", {
-                  key: index,
-                  attrs: { vnode: item }
-                })
-              }),
-              1
+              [
+                _c("div", { staticClass: "modal-content" }, [
+                  _c("div", { staticClass: "modal-header" }, [
+                    _c("div", { staticClass: "modal-title h4" }, [
+                      _vm._v(
+                        _vm._s(_vm.$translate("Ceres::Template.couponEdit"))
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        staticClass: "close",
+                        attrs: {
+                          type: "button",
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.closeEditModal()
+                          }
+                        }
+                      },
+                      [
+                        _c("span", { attrs: { "aria-hidden": "true" } }, [
+                          _vm._v("×")
+                        ])
+                      ]
+                    )
+                  ]),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "modal-body overflow-x-hidden modal-multi-row"
+                    },
+                    [
+                      _vm._l(_vm.couponData, function(coupon) {
+                        return [
+                          _c("div", { staticClass: "row" }, [
+                            _c("div", { staticClass: "col-12 h5" }, [
+                              _vm._v(
+                                _vm._s(
+                                  _vm.$translate("Ceres::Template.couponLabel")
+                                )
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "col-12 col-sm-6" }, [
+                              _c("div", { staticClass: "input-unit" }, [
+                                _c("input", {
+                                  directives: [
+                                    {
+                                      name: "tooltip",
+                                      rawName: "v-tooltip",
+                                      value: _vm.isFinalized,
+                                      expression: "isFinalized"
+                                    },
+                                    {
+                                      name: "model",
+                                      rawName: "v-model",
+                                      value: coupon.sender,
+                                      expression: "coupon.sender"
+                                    }
+                                  ],
+                                  class: {
+                                    disabled: _vm.isLoading || _vm.isFinalized
+                                  },
+                                  attrs: {
+                                    readonly: _vm.isFinalized,
+                                    "data-placement": "top",
+                                    title: _vm.$translate(
+                                      "Ceres::Template.couponAlreadyFinalized"
+                                    ),
+                                    type: "text",
+                                    name: "sender",
+                                    autocomplete: "off",
+                                    "data-validate": "text",
+                                    "data-autofocus": ""
+                                  },
+                                  domProps: { value: coupon.sender },
+                                  on: {
+                                    input: function($event) {
+                                      if ($event.target.composing) {
+                                        return
+                                      }
+                                      _vm.$set(
+                                        coupon,
+                                        "sender",
+                                        $event.target.value
+                                      )
+                                    }
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("label", { attrs: { for: "sender" } }, [
+                                  _vm._v(
+                                    _vm._s(
+                                      _vm.$translate(
+                                        "Ceres::Template.couponSender"
+                                      )
+                                    ) + "*"
+                                  )
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "col-12 col-sm-6" }, [
+                              _c("div", { staticClass: "input-unit" }, [
+                                _c("input", {
+                                  directives: [
+                                    {
+                                      name: "tooltip",
+                                      rawName: "v-tooltip",
+                                      value: _vm.isFinalized,
+                                      expression: "isFinalized"
+                                    },
+                                    {
+                                      name: "model",
+                                      rawName: "v-model",
+                                      value: coupon.recipient,
+                                      expression: "coupon.recipient"
+                                    }
+                                  ],
+                                  class: {
+                                    disabled: _vm.isLoading || _vm.isFinalized
+                                  },
+                                  attrs: {
+                                    readonly: _vm.isFinalized,
+                                    "data-placement": "top",
+                                    title: _vm.$translate(
+                                      "Ceres::Template.couponAlreadyFinalized"
+                                    ),
+                                    type: "text",
+                                    name: "recipient",
+                                    autocomplete: "off",
+                                    "data-validate": "text"
+                                  },
+                                  domProps: { value: coupon.recipient },
+                                  on: {
+                                    input: function($event) {
+                                      if ($event.target.composing) {
+                                        return
+                                      }
+                                      _vm.$set(
+                                        coupon,
+                                        "recipient",
+                                        $event.target.value
+                                      )
+                                    }
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("label", { attrs: { for: "recipient" } }, [
+                                  _vm._v(
+                                    _vm._s(
+                                      _vm.$translate(
+                                        "Ceres::Template.couponRecipient"
+                                      )
+                                    ) + "*"
+                                  )
+                                ])
+                              ])
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "col-12" }, [
+                              _c("div", { staticClass: "input-unit" }, [
+                                _c("textarea", {
+                                  directives: [
+                                    {
+                                      name: "tooltip",
+                                      rawName: "v-tooltip",
+                                      value: _vm.isFinalized,
+                                      expression: "isFinalized"
+                                    },
+                                    {
+                                      name: "model",
+                                      rawName: "v-model",
+                                      value: coupon.content,
+                                      expression: "coupon.content"
+                                    }
+                                  ],
+                                  class: {
+                                    disabled: _vm.isLoading || _vm.isFinalized
+                                  },
+                                  attrs: {
+                                    readonly: _vm.isFinalized,
+                                    "data-placement": "top",
+                                    title: _vm.$translate(
+                                      "Ceres::Template.couponAlreadyFinalized"
+                                    ),
+                                    name: "content",
+                                    rows: "3",
+                                    autocomplete: "off"
+                                  },
+                                  domProps: { value: coupon.content },
+                                  on: {
+                                    input: function($event) {
+                                      if ($event.target.composing) {
+                                        return
+                                      }
+                                      _vm.$set(
+                                        coupon,
+                                        "content",
+                                        $event.target.value
+                                      )
+                                    }
+                                  }
+                                }),
+                                _vm._v(" "),
+                                _c("label", { attrs: { for: "content" } }, [
+                                  _vm._v(
+                                    _vm._s(
+                                      _vm.$translate(
+                                        "Ceres::Template.couponContent"
+                                      )
+                                    )
+                                  )
+                                ])
+                              ])
+                            ])
+                          ])
+                        ]
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "modal-footer" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-danger",
+                        attrs: {
+                          type: "button",
+                          disabled: _vm.isLoading,
+                          "data-dismiss": "modal",
+                          "aria-label": "Close"
+                        },
+                        on: {
+                          click: function($event) {
+                            return _vm.closeEditModal()
+                          }
+                        }
+                      },
+                      [
+                        _c("span", [
+                          _vm._v(
+                            _vm._s(
+                              _vm.$translate("Ceres::Template.couponCancel")
+                            )
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("i", {
+                          staticClass: "fa fa-times default-float",
+                          attrs: { "aria-hidden": "true" }
+                        })
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "button",
+                      {
+                        directives: [
+                          {
+                            name: "tooltip",
+                            rawName: "v-tooltip",
+                            value: _vm.isFinalized,
+                            expression: "isFinalized"
+                          }
+                        ],
+                        staticClass: "btn btn-primary",
+                        class: { disabled: _vm.isLoading || _vm.isFinalized },
+                        attrs: {
+                          type: "submit",
+                          "data-placement": "top",
+                          title: _vm.$translate(
+                            "Ceres::Template.couponAlreadyFinalized"
+                          )
+                        }
+                      },
+                      [
+                        _c("span", [
+                          _vm._v(
+                            _vm._s(_vm.$translate("Ceres::Template.couponSave"))
+                          )
+                        ]),
+                        _vm._v(" "),
+                        _c("icon", {
+                          staticClass: "default-float",
+                          attrs: { icon: "check", loading: _vm.isLoading }
+                        })
+                      ],
+                      1
+                    )
+                  ])
+                ])
+              ]
             )
-          ])
-        : _vm._l(_vm.$slots.items, function(item) {
-            return _c(
-              "div",
-              { class: _vm.columnWidths },
-              [_c("slot-component", { attrs: { vnode: item } })],
-              1
-            )
-          })
-    ],
-    2
-  )
+          ]
+        )
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        ref: "confirmFinalizationOverlay",
+        staticClass: "modal fade",
+        attrs: {
+          id: "confirm-finalization-overlay",
+          tabindex: "-1",
+          role: "dialog"
+        }
+      },
+      [
+        _c(
+          "div",
+          { staticClass: "modal-dialog", attrs: { role: "document" } },
+          [
+            _c("div", { staticClass: "modal-content" }, [
+              _c("div", { staticClass: "modal-header" }, [
+                _c("div", { staticClass: "modal-title h4" }, [
+                  _vm._v(
+                    _vm._s(_vm.$translate("Ceres::Template.couponFinalize"))
+                  )
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "close",
+                    attrs: {
+                      type: "button",
+                      "data-dismiss": "modal",
+                      "aria-label": "Close"
+                    },
+                    on: {
+                      click: function($event) {
+                        return _vm.closeConfirmModal()
+                      }
+                    }
+                  },
+                  [
+                    _c("span", { attrs: { "aria-hidden": "true" } }, [
+                      _vm._v("×")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-body" }, [
+                _c("div", { staticClass: "my-2" }, [
+                  _vm._v(
+                    _vm._s(
+                      _vm.$translate("Ceres::Template.couponFinalizeConfirm")
+                    )
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "modal-footer" }, [
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-danger",
+                    attrs: {
+                      type: "button",
+                      disabled: _vm.isFinalizing,
+                      "data-dismiss": "modal",
+                      "aria-label": "Close"
+                    },
+                    on: {
+                      click: function($event) {
+                        return _vm.closeConfirmModal()
+                      }
+                    }
+                  },
+                  [
+                    _c("span", [
+                      _vm._v(
+                        _vm._s(
+                          _vm.$translate(
+                            "Ceres::Template.couponFinalizeConfirmNo"
+                          )
+                        )
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("i", {
+                      staticClass: "fa fa-times default-float",
+                      attrs: { "aria-hidden": "true" }
+                    })
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary",
+                    class: { disabled: _vm.isFinalizing },
+                    attrs: { type: "button" },
+                    on: {
+                      click: function($event) {
+                        return _vm.finalize()
+                      }
+                    }
+                  },
+                  [
+                    _c("span", [
+                      _vm._v(
+                        _vm._s(
+                          _vm.$translate(
+                            "Ceres::Template.couponFinalizeConfirmYes"
+                          )
+                        )
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("icon", {
+                      staticClass: "default-float",
+                      attrs: { icon: "check", loading: _vm.isFinalizing }
+                    })
+                  ],
+                  1
+                )
+              ])
+            ])
+          ]
+        )
+      ]
+    )
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true

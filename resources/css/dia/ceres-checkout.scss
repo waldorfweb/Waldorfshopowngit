@@ -9235,6 +9235,7 @@ html.ios { // stylelint-disable-line selector-no-qualifying-type
     overflow: hidden;
     white-space: nowrap;
     cursor: pointer;
+    outline: none;
 
     &:hover {
         background: $gray-300;
@@ -10169,7 +10170,7 @@ $border-width: 1px;
 
     & > textarea {
         overflow-y: auto;
-        white-space: normal;
+        white-space: pre-wrap;
     }
 
     & > label {
@@ -11258,6 +11259,9 @@ textarea.no-resize {
     @include border-radius(0 $border-radius $border-radius 0);
 
     .qty-btn {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; /* FF */
         background-color: $qty-box-bg;
         border: 1px solid $qty-box-border;
         -webkit-box-shadow: none;
@@ -11558,7 +11562,7 @@ html.crios {
     .filter-collapse {
         position: absolute;
         top: 100%;
-        z-index: $zindex-1;
+        z-index: $zindex-3 - 5;
         width: 100%;
         padding-right: 15px;
         margin-left: -15px;
@@ -12546,6 +12550,7 @@ html.ie .v-s-boxes .v-s-box.invalid { // stylelint-disable-line selector-no-qual
 }
 
 .widget-background {
+
     > .container-max {
         padding-right: 0;
         padding-left: 0;
@@ -12680,8 +12685,7 @@ html.ie .v-s-boxes .v-s-box.invalid { // stylelint-disable-line selector-no-qual
         padding-bottom: 0;
     }
 
-    > picture img,
-    > img {
+    img {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -13301,6 +13305,11 @@ html.ie {
 
 html.ie .widget-grid .widget-inner-stacked { // stylelint-disable-line selector-no-qualifying-type
     display: block;
+}
+
+html.safari .widget-grid .widget-inner-stacked .widget-inner { // stylelint-disable-line selector-no-qualifying-type
+    -ms-flex-preferred-size: auto !important;
+        flex-basis: auto !important; // stylelint-disable-line declaration-no-important
 }
 
 .nav-link.text-appearance.active {

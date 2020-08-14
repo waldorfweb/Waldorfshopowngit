@@ -1,4 +1,4 @@
-import "./app/publicPath";
+import "~/app/publicPath";
 // =========================
 // Polyfill's
 // =========================
@@ -116,7 +116,7 @@ Vue.component("quantity-input", () => import("ceres/app/components/item/Quantity
 
 Vue.component("tag-list", () => import("ceres/app/components/item/TagList.vue"));
 
-Vue.component("category-item", () => import("ceres/app/components/itemList/CategoryItem.vue"));
+Vue.component("category-item", () => import("~/app/components/itemList/CategoryItem.vue"));
 import ItemSearch from "ceres/app/components/itemList/ItemSearch.vue";
 Vue.component("item-search", ItemSearch);
 Vue.component("search-suggestion-item", () => import("ceres/app/components/itemList/SearchSuggestionItem.vue"));
