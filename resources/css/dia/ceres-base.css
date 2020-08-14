@@ -16084,6 +16084,12 @@ table {
   display: block;
   margin: 10px 0px; }
 
+.item-details__short {
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  margin-bottom: 10px; }
+
 .item-details__book-btn {
   padding: 15px 0px; }
 

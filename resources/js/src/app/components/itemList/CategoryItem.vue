@@ -66,7 +66,7 @@
                         </span>
 
                         <span v-if="item.texts.shortDescription" class="item-details__short">
-                            von {{ item.texts.shortDescription }}
+                            {{ item.texts.shortDescription }}
                         </span>
 
                         <span v-if="item.variation.availability" :class="'availability badge availability_' + item.variation.availability.id">

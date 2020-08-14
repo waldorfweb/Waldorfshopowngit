@@ -423,7 +423,7 @@ var render = function() {
                     _vm.item.texts.shortDescription
                       ? _c("span", { staticClass: "item-details__short" }, [
                           _vm._v(
-                            "\n                            von " +
+                            "\n                            " +
                               _vm._s(_vm.item.texts.shortDescription) +
                               "\n                        "
                           )
