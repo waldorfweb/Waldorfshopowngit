@@ -13200,8 +13200,14 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	rot #b92a38
 	grün #42974c
 */
-.dia-footer__copyright {
+.dia-footer__copyright.test {
   display: none !important; }
+
+/* Anpassung für Formatierungsfehler in Produkttexten */
+.tab-pane p span {
+  font-family: inherit !important;
+  font-size: inherit !important;
+  color: inherit !important; }
 
 /* Grid */
 .item-details__book-details span {

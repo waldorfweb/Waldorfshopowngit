@@ -3,8 +3,15 @@
 	grün #42974c
 */
 
-.dia-footer__copyright{
+.dia-footer__copyright.test{
 	display: none !important;
+}
+
+/* Anpassung für Formatierungsfehler in Produkttexten */
+.tab-pane p span {
+	font-family: inherit !important;
+	font-size: inherit !important;
+	color: inherit !important;
 }
 
 /* Grid */
@@ -13,7 +20,7 @@
     float:left;
     width:100%;
     display: block;
-    
+
 }
 .item-details__subtitle {
  
