@@ -13804,7 +13804,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	grün #42974c
 */
 .dia-footer__copyright.test {
-  display: none !important; }
+  display: none !important;
+  border: 0px solid white; }
 
 /* Anpassung für Formatierungsfehler in Produkttexten */
 .tab-pane p span, .category-description p span, .category-description h2 span {
