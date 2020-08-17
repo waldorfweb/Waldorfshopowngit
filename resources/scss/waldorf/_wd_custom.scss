@@ -46,20 +46,6 @@ body {
 	-moz-osx-font-smoothing:grayscale;
 }
 
-/* fixing after */
-
-a {
-	color:#b92a38 !important;
-}
-
-.control-basket .toggle-basket-preview {
-    color: #fff;
-    background-color: #b92a38;
-}
-.controls-list .nav-link:hover {
-    color: #fff !important;
-    background-color: #b92a38;
-}
 
 /* Google Form iframe */
 
@@ -1889,14 +1875,7 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 
 /* footer  */
 
-.dia-footer a{
-	color:white !important;
-}
-.dia-footer a:hover{
-	color:rgb(218, 218, 218);
-}
-
-.dia-footer .widget_hinweis_klein .fa, .dia-footer .widget_hinweis_klein .far, .dia-footer .widget_hinweis_klein .fas {
+.footer .widget_hinweis_klein .fa, .footer .widget_hinweis_klein .far, .footer .widget_hinweis_klein .fas {
     font-family: "Font Awesome 5 Free";
     font-size: 32px;
     clear: both;
@@ -1904,17 +1883,17 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
     padding-bottom: 20px;
     color:#FBF3E6;
 }
-.dia-footer .widget_hinweis_klein a{
+.footer .widget_hinweis_klein a{
 	max-width: 240px;
 }
-.dia-footer .widget_hinweis_klein ul li{
+.footer .widget_hinweis_klein ul li{
 	text-align:center;
 }
-.dia-footer .modSocialMediaBox{
+.footer .modSocialMediaBox{
 	padding-top:6px;
 }
 
-.dia-footer {
+.footer {
 	border-top:1px solid transparent!important;
 	background-color:#806eac!important;
 	color:#fff;
@@ -1924,38 +1903,38 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 	max-width:100%;
 }
 
-.dia-footer,.dia-footer a,.dia-footer .widget-list .widget-inner a,.dia-footer .widget-link-list .widget-inner a,.dia-footer .fa,.wd_footer_versand .h4 {
+.footer,.footer a,.footer .widget-list .widget-inner a,.footer .widget-link-list .widget-inner a,.footer .fa,.wd_footer_versand .h4 {
 	color:#fff;
 }
 
-.dia-footer a:hover {
+.footer a:hover {
 	color:#e1e1e1!important;
 }
 
-.dia-footer .row {
+.footer .row {
 	max-width:1360px;
 	margin:0 auto;
 }
 
-.dia-footer .col,.dia-footer .widget-grid .widget-inner .widget-list {
+.footer .col,.footer .widget-grid .widget-inner .widget-list {
 	background-color:#806eac!important;
 }
 
-.dia-footer .widget-legal-information {
+.footer .widget-legal-information {
 	border-top:1px solid #0000001c;
 	padding-top:20px;
 	margin-top:20px;
 }
 @media(min-width:567px) {
 
-.dia-footer .widget-legal-information {
+.footer .widget-legal-information {
 	border-top:1px solid #0000001c;
 	padding-top:20px;
 	margin-top:-10px !important;
 }
 }
 
-.dia-footer .pipe {
+.footer .pipe {
 	border-left:0;
 }
 
@@ -1993,7 +1972,7 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 	max-width: 100%;
 }
 
-.dia-footer .widget_payment {
+.footer .widget_payment {
     border-top: 1px solid #0000001c;
     padding-top: 20px;
     margin-top: 20px;
@@ -3207,84 +3186,4 @@ height:auto;
 
 .widget_katalog_box .cmp-product-thumb--grid:before {
     background-image: url(https://trinidub.de/wd/images/background_frame_white.png) !important;
-}
-
-.widget-primary .btn-appearance {
-    color: #fff;
-    background-color: #846bb0;
-    border-color: #846bb0;
-}
-
-.item-details{
-	&__book-details {
-		margin: 5px 0px;
-
-		.availability_1 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_2 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_3 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_4 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_5 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_6 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_7 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-	}
-
-	&__author {
-		font-size: 12px;
-		line-height: 18px;
-		display: block;
-		margin: 10px 0px;
-	}
-
-	&__short {
-		font-size: 12px;
-		line-height: 18px;
-		display: block;
-		margin-bottom: 10px;
-	}
-
-	&__book-btn {
-		padding: 15px 0px;
-	}
 }

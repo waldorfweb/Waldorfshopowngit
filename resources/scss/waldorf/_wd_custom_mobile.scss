@@ -38,13 +38,32 @@ and (orientation : landscape) {
     color: #b92a38;
     font-size: 11.2px !important;
 }
+.search-permanent .controls .nav-link {
+    padding: 1.2rem 0.4rem;
+}
 }
 
 /* iPad in portrait */
 @media only screen
 and (min-width : 768px)
 and (max-width : 1024px)
-and (orientation : portrait) { /* STYLES GO HERE */ }
+and (orientation : portrait) { /* STYLES GO HERE */ 
+	.always-visible-search {
+		    position: relative;
+/*     top: -11px; */
+    padding-left: 0;
+}
+.telefonnummer {display: none;}
+.blog-entrypoint {
+    position: relative;
+    left: 10px;
+    width:80px;
+/*     top:-6px; */
+}
+.search-permanent .controls .nav-link {
+    padding: 1.2rem 0.4rem;
+}
+}
 
 @media(max-width:767px) {
 .top-bar .kundenhotline .telefonnummer{
@@ -68,6 +87,7 @@ and (orientation : portrait) { /* STYLES GO HERE */ }
 .footer .widget_hinweis_klein ul{
 	padding-top:20px;
 }
+
 }
 
 

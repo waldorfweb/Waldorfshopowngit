@@ -40,7 +40,8 @@ $(function() {
 
 
 $(document).ready(function() {
-    
+
+
 	if ($("body").hasClass("item-10000621")) {
       //alert('test3');
       		//alert('test4');
@@ -50,7 +51,12 @@ $(document).ready(function() {
 $('.normalmenu .level2').each(function(){
 	$(this).siblings( ".level1" ).addClass('navpfeil');
 });
-
+$('.megamenu .level1').each(function(){
+	$(this).siblings( ".level2" ).addClass('navpfeil');
+});
+$('.megamenu .level2').each(function(){
+	$(this).siblings( ".level2" ).addClass('navpfeil');
+});
 
 
 

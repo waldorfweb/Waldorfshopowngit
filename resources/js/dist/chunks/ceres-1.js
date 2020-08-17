@@ -1935,8 +1935,7 @@ __webpack_require__.r(__webpack_exports__);
         template: String,
         backlink: String,
         shownFields: Object,
-        requiredFields: Object,
-        defaultSalutation: { type: String, default: App.config.addresses.defaultSalutation }
+        requiredFields: Object
     },
 
     data()
@@ -1955,6 +1954,7 @@ __webpack_require__.r(__webpack_exports__);
             privacyPolicyShowError: false,
             enableConfirmingPrivacyPolicy: App.config.global.registrationRequirePrivacyPolicyConfirmation,
             googleRecaptchaApiKey: App.config.global.googleRecaptchaApiKey,
+            defaultSalutation: App.config.addresses.defaultSalutation,
             modalShown: false,
             honeypot: ""
         };
