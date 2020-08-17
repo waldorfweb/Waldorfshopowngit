@@ -13807,7 +13807,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   display: none !important; }
 
 /* Anpassung für Formatierungsfehler in Produkttexten */
-.tab-pane p span {
+.tab-pane p span, .category-description p span, .category-description h2 span {
   font-family: inherit !important;
   font-size: inherit !important;
   color: inherit !important; }
