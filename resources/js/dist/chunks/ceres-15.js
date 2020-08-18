@@ -30,6 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 /* harmony import */ var ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ceres/app/components/itemList/CategoryImageCarousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/CategoryImageCarousel.vue");
 /* harmony import */ var ceres_app_components_itemList_ItemStoreSpecial_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ceres/app/components/itemList/ItemStoreSpecial.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/ItemStoreSpecial.vue");
+/* harmony import */ var ceres_app_helper_utils__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ceres/app/helper/utils */ "./node_modules/Ceres/resources/js/src/app/helper/utils.js");
 
 
 
@@ -198,6 +199,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
+
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     CategoryImageCarousel: ceres_app_components_itemList_CategoryImageCarousel_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
@@ -233,8 +235,8 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       return this.itemData || this.itemDataRef;
     },
     isBook: function isBook() {
-      if (typeof this.$store.state.navigation.currentCategory !== "undefined") {
-        return [34, 3472, 54].includes(this.$store.state.navigation.currentCategory.id);
+      if (!Object(ceres_app_helper_utils__WEBPACK_IMPORTED_MODULE_12__["isNullOrUndefined"])(this.$store.state.navigation.currentCategory)) {
+        return [34].includes(this.$store.state.navigation.currentCategory.id);
       }
 
       return false;
