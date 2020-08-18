@@ -151,6 +151,7 @@
 import { mapState } from "vuex";
 import CategoryImageCarousel from "ceres/app/components/itemList/CategoryImageCarousel.vue";
 import ItemStoreSpecial from "ceres/app/components/itemList/ItemStoreSpecial.vue";
+import { isNullOrUndefined } from "ceres/app/helper/utils";
 
 export default {
     components: {
@@ -201,7 +202,7 @@ export default {
         },
 
         isBook() {
-            if( typeof this.$store.state.navigation.currentCategory !== "undefined") {
+            if( !isNullOrUndefined(this.$store.state.navigation.currentCategory) ) {
                 return [34,3472,54].includes(this.$store.state.navigation.currentCategory.id);
             }
 
