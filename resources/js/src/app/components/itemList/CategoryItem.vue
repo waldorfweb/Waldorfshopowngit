@@ -203,7 +203,7 @@ export default {
 
         isBook() {
             if( !isNullOrUndefined(this.$store.state.navigation.currentCategory) ) {
-                return [34,3472].includes(this.$store.state.navigation.currentCategory.id);
+                return [34,3472,54].includes(this.$store.state.navigation.currentCategory.id);
             }
 
             return false;
