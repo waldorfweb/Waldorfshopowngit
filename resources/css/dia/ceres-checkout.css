@@ -7933,8 +7933,7 @@ html.ios textarea {
   align-items: center;
   overflow: hidden;
   white-space: nowrap;
-  cursor: pointer;
-  outline: none; }
+  cursor: pointer; }
   .autocomplete-suggestion:hover {
     background: #dee2e6; }
   .autocomplete-suggestion .label {
@@ -8625,7 +8624,7 @@ html.ie .single-carousel .owl-item > div {
   background-color: #fff; }
   .input-unit.textarea > textarea {
     overflow-y: auto;
-    white-space: pre-wrap; }
+    white-space: normal; }
   .input-unit.textarea > label {
     background-color: #fff;
     opacity: .9; }
@@ -9390,8 +9389,6 @@ html.ie .basket-item-container-right {
   width: 24px;
   border-radius: 0 0.1rem 0.1rem 0; }
   .qty-btn-container .qty-btn {
-    align-items: center;
-    /* FF */
     background-color: #e9ecef;
     border: 1px solid #ced4da;
     box-shadow: none;
@@ -9579,7 +9576,7 @@ html.crios .parallax-img-container .parallax-img-container-inner[style^="backgro
   .list-controls .filter-collapse {
     position: absolute;
     top: 100%;
-    z-index: 1025;
+    z-index: 1000;
     width: 100%;
     padding-right: 15px;
     margin-left: -15px; }
@@ -10367,14 +10364,16 @@ html.ie .v-s-boxes .v-s-box.invalid::after {
     min-height: 10rem;
     padding-bottom: 0; } }
 
-.widget-image-box img {
+.widget-image-box > picture img,
+.widget-image-box > img {
   position: absolute;
   top: 50%;
   left: 50%;
   max-width: 100%;
   max-height: 100%;
   transform: translate(-50%, -50%); }
-  .widget-image-box img.img-cover {
+  .widget-image-box > picture img.img-cover,
+  .widget-image-box > img.img-cover {
     min-width: 100%;
     min-height: 100%;
     -o-object-fit: cover;
@@ -10939,9 +10938,6 @@ html.ie .widget-image-carousel .widget-inner .carousel-item .img-cover {
 
 html.ie .widget-grid .widget-inner-stacked {
   display: block; }
-
-html.safari .widget-grid .widget-inner-stacked .widget-inner {
-  flex-basis: auto !important; }
 
 .nav-link.text-appearance.active {
   color: #495057 !important; }
@@ -13822,6 +13818,9 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   float: left;
   width: 100%;
   display: block; }
+
+.item-details__book-btn {
+  display: none; }
 
 @font-face {
   font-family: 'Signika';

@@ -233,11 +233,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
       return this.itemData || this.itemDataRef;
     },
     isBook: function isBook() {
-      if (typeof this.$store.state.navigation.currentCategory !== "undefined") {
-        return [34, 3472, 54].includes(this.$store.state.navigation.currentCategory.id);
-      }
-
-      return false;
+      return [3374].includes(this.$store.state.navigation.currentCategory.id);
     },
 
     /**
@@ -383,7 +379,7 @@ var render = function() {
                 },
                 [
                   _vm._v(
-                    "\n                        " +
+                    "\n                    " +
                       _vm._s(_vm._f("itemName")(_vm.item))
                   ),
                   _vm._l(_vm.item.groupedAttributes, function(attribute) {
@@ -407,9 +403,9 @@ var render = function() {
                     _vm.item.texts.name3
                       ? _c("span", { staticClass: "item-details__subtitle" }, [
                           _vm._v(
-                            '\n                            "' +
+                            '\n                        "' +
                               _vm._s(_vm.item.texts.name3) +
-                              '"\n                        '
+                              '"\n                    '
                           )
                         ])
                       : _vm._e(),
@@ -417,9 +413,9 @@ var render = function() {
                     _vm.item.texts.name2
                       ? _c("span", { staticClass: "item-details__author" }, [
                           _vm._v(
-                            "\n                            von " +
+                            "\n                        von " +
                               _vm._s(_vm.item.texts.name2) +
-                              "\n                        "
+                              "\n                    "
                           )
                         ])
                       : _vm._e(),
@@ -427,19 +423,33 @@ var render = function() {
                     _vm.item.texts.shortDescription
                       ? _c("span", { staticClass: "item-details__short" }, [
                           _vm._v(
-                            "\n                            " +
+                            "\n                        " +
                               _vm._s(_vm.item.texts.shortDescription) +
-                              "\n                        "
+                              "\n                    "
                           )
                         ])
                       : _vm._e(),
                     _vm._v(" "),
                     _vm.item.variation.availability
-                      ? _c("span", {
-                          class:
-                            "availability badge availability_" +
-                            _vm.item.variation.availability.id
-                        })
+                      ? _c(
+                          "span",
+                          {
+                            class:
+                              "availability badge availability_" +
+                              _vm.item.variation.availability.id
+                          },
+                          [
+                            _c("span", [
+                              _vm._v(
+                                "\n                            " +
+                                  _vm._s(
+                                    _vm.item.variation.availability.names.name
+                                  ) +
+                                  "\n                        "
+                              )
+                            ])
+                          ]
+                        )
                       : _vm._e()
                   ])
                 : _vm._e(),
@@ -459,7 +469,7 @@ var render = function() {
                           _vm.item.prices.specialOffer
                             ? _c("del", { staticClass: "crossprice" }, [
                                 _vm._v(
-                                  "\n                                    " +
+                                  "\n                                " +
                                     _vm._s(
                                       _vm._f("itemCrossPrice")(
                                         _vm.item.prices.default.unitPrice
@@ -467,18 +477,18 @@ var render = function() {
                                         true
                                       )
                                     ) +
-                                    "\n                                "
+                                    "\n                            "
                                 )
                               ])
                             : _c("del", { staticClass: "crossprice" }, [
                                 _vm._v(
-                                  "\n                                    " +
+                                  "\n                                " +
                                     _vm._s(
                                       _vm._f("itemCrossPrice")(
                                         _vm.item.prices.rrp.unitPrice.formatted
                                       )
                                     ) +
-                                    "\n                                "
+                                    "\n                            "
                                 )
                               ])
                         ])
@@ -491,14 +501,14 @@ var render = function() {
                         _vm.item.item.itemType === "set"
                           ? [
                               _vm._v(
-                                "\n                                    " +
+                                "\n                                " +
                                   _vm._s(
                                     _vm.$translate(
                                       "Ceres::Template.itemSetPrice",
                                       { price: _vm.itemSetPrice }
                                     )
                                   ) +
-                                  " *\n                                "
+                                  " *\n                            "
                               )
                             ]
                           : !!_vm.item.item &&
@@ -506,19 +516,19 @@ var render = function() {
                             _vm.$ceres.isCheapestSorting
                           ? [
                               _vm._v(
-                                "\n                                     " +
+                                "\n                                 " +
                                   _vm._s(
                                     _vm.$translate(
                                       "Ceres::Template.categoryItemFromPrice",
                                       { price: _vm.itemPrice }
                                     )
                                   ) +
-                                  " *\n                                "
+                                  " *\n                            "
                               )
                             ]
                           : [
                               _vm._v(
-                                "\n                                    " +
+                                "\n                                " +
                                   _vm._s(
                                     _vm._f("specialOffer")(
                                       _vm.item.prices.default.unitPrice
@@ -528,7 +538,7 @@ var render = function() {
                                       "formatted"
                                     )
                                   ) +
-                                  " *\n                                "
+                                  " *\n                            "
                               )
                             ]
                       ],
@@ -594,7 +604,7 @@ var render = function() {
               }),
               _vm._v(" "),
               _c("div", { staticClass: "vat small text-muted" }, [
-                _vm._v("\n                        * "),
+                _vm._v("\n                    * "),
                 _vm.showNetPrices
                   ? _c("span", [
                       _vm._v(
@@ -607,9 +617,9 @@ var render = function() {
                       )
                     ]),
                 _vm._v(
-                  "\n                        " +
+                  "\n                    " +
                     _vm._s(_vm.$translate("Ceres::Template.itemExclusive")) +
-                    "\n                        "
+                    "\n                    "
                 ),
                 _vm.$ceres.config.global.shippingCostsCategoryId > 0
                   ? _c(
@@ -667,11 +677,11 @@ var render = function() {
                       },
                       [
                         _vm._v(
-                          "\n                            " +
+                          "\n                        " +
                             _vm._s(
                               _vm.$translate("Ceres::Template.itemShowItem")
                             ) +
-                            "\n                        "
+                            "\n                    "
                         )
                       ]
                     )

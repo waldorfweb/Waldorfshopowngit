@@ -70,9 +70,9 @@
                         </span>
 
                         <span v-if="item.variation.availability" :class="'availability badge availability_' + item.variation.availability.id">
-<!--                            <span>-->
-<!--                                {{ item.variation.availability.names.name }}-->
-<!--                            </span>-->
+                            <span>
+                                {{ item.variation.availability.names.name }}
+                            </span>
                         </span>
                     </div>
 
@@ -201,11 +201,7 @@ export default {
         },
 
         isBook() {
-            if( typeof this.$store.state.navigation.currentCategory !== "undefined") {
-                return [34,3472,54].includes(this.$store.state.navigation.currentCategory.id);
-            }
-
-            return false;
+            return [3374].includes(this.$store.state.navigation.currentCategory.id);
         },
 
         /**
