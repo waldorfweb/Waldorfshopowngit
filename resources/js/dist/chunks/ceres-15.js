@@ -236,7 +236,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     },
     isBook: function isBook() {
       if (!Object(ceres_app_helper_utils__WEBPACK_IMPORTED_MODULE_12__["isNullOrUndefined"])(this.$store.state.navigation.currentCategory)) {
-        return [34].includes(this.$store.state.navigation.currentCategory.id);
+        return [34, 3472, 54].includes(this.$store.state.navigation.currentCategory.id);
       }
 
       return false;
