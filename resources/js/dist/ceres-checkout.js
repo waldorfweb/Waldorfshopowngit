@@ -56581,7 +56581,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
@@ -59412,13 +59411,15 @@ __webpack_require__.r(__webpack_exports__);
             }
         },
 
-        // hide autocomplete after 100ms to make clicking on it possible
-        setIsSearchFocused(value)
+        // hide search, if targetElement of the blur event is not a child of components' root element
+        onBlurSearchField(event)
         {
-            setTimeout(() =>
+            const target = event.relatedTarget;
+
+            if (Object(_helper_utils__WEBPACK_IMPORTED_MODULE_1__["isNullOrUndefined"])(target) || !Object(_helper_utils__WEBPACK_IMPORTED_MODULE_1__["isNullOrUndefined"])(target) && !this.$el.contains(target))
             {
-                this.isSearchFocused = !!value;
-            }, 100);
+                this.isSearchFocused = false;
+            }
         }
     },
 
@@ -60279,11 +60280,7 @@ var render = function() {
           _vm._v(" "),
           _vm.fallbackUrl
             ? _c("source", { attrs: { srcset: _vm.fallbackUrl } })
-            : _vm._e(),
-          _vm._v(" "),
-          _c("noscript", [
-            _c("img", { attrs: { src: _vm.fallbackUrl || _vm.imageUrl } })
-          ])
+            : _vm._e()
         ]
       )
     : _c(
@@ -66279,7 +66276,7 @@ var render = function() {
                     _vm.isSearchFocused = true
                   },
                   blur: function($event) {
-                    return _vm.setIsSearchFocused(false)
+                    return _vm.onBlurSearchField($event)
                   }
                 }
               }),

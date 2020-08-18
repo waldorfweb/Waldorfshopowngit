@@ -115,6 +115,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
@@ -170,6 +171,8 @@ __webpack_require__.r(__webpack_exports__);
                 .filter(word => word.length)
                 .join("|");
 
+            label = (label || "").toString();
+
             return label
                 .replace(new RegExp(search, "ig"), match =>
                 {
@@ -222,7 +225,7 @@ var render = function() {
                     staticClass: "autocomplete-suggestion",
                     class: _vm.paddingClasses,
                     style: _vm.paddingInlineStyles,
-                    attrs: { href: _vm.getTargetUrl(item) }
+                    attrs: { href: _vm.getTargetUrl(item), tabindex: "0" }
                   },
                   [
                     _vm.showImages

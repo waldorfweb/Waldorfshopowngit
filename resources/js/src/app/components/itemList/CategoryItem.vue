@@ -201,7 +201,11 @@ export default {
         },
 
         isBook() {
-            return [34,3472,54].includes(this.$store.state.navigation.currentCategory.id);
+            if( typeof this.$store.state.navigation.currentCategory !== "undefined") {
+                return [34,3472,54].includes(this.$store.state.navigation.currentCategory.id);
+            }
+
+            return false;
         },
 
         /**
