@@ -13831,7 +13831,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   margin: 6px 0;
   padding: 0px;
   display: block;
-  position: relative; }
+  position: relative;
+  float: left; }
 
 .cmp-product-thumb .prices {
   display: block;
@@ -13847,7 +13848,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   font-weight: 700;
   float: left;
   line-height: 1.5em;
-  width: 65%; }
+  width: 100%; }
 
 .cmp-product-thumb .price {
   color: #549e50;
@@ -13856,7 +13857,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   font-size: 1.2rem;
   float: left;
   min-height: 21px;
-  width: 35%; }
+  width: 100%; }
+
+.cmp-product-thumb .crossprice {
+  color: #b92a38; }
 
 @font-face {
   font-family: 'Signika';

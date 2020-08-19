@@ -18747,6 +18747,87 @@ height:auto;
     background-image: url(https://trinidub.de/wd/images/background_frame_white.png) !important;
 }
 
+.widget-primary .btn-appearance {
+	color: #fff;
+	background-color: #846bb0;
+	border-color: #846bb0;
+}
+
+.item-details{
+	&__book-details {
+		margin: 5px 0px;
+		display: inline-block;
+
+		.availability_1 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_2 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_3 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_4 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_5 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_6 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+		.availability_7 {
+			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
+			background-repeat: no-repeat;
+			width: 15px;
+			height: 15px;
+			display: block;
+		}
+	}
+
+	&__author {
+		font-size: 12px;
+		line-height: 18px;
+		display: block;
+		margin: 10px 0px;
+	}
+
+	&__short {
+		font-size: 12px;
+		line-height: 18px;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	&__book-btn {
+		padding: 15px 0px;
+	}
+}
+
 /* CSS after update ceres 5
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
