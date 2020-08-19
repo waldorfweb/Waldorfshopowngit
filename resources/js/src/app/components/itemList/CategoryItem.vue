@@ -84,7 +84,7 @@
                                 <del class="crossprice" v-if="item.prices.specialOffer">
                                     {{ item.prices.default.unitPrice.formatted | itemCrossPrice(true) }}
                                 </del>
-                                <del class="crossprice" v-else>
+                                <del class="crossprice newcross" v-else>
                                     {{ item.prices.rrp.unitPrice.formatted | itemCrossPrice }}
                                 </del>
                             </div>

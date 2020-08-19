@@ -484,17 +484,22 @@ var render = function() {
                                     "\n                            "
                                 )
                               ])
-                            : _c("del", { staticClass: "crossprice" }, [
-                                _vm._v(
-                                  "\n                                " +
-                                    _vm._s(
-                                      _vm._f("itemCrossPrice")(
-                                        _vm.item.prices.rrp.unitPrice.formatted
-                                      )
-                                    ) +
-                                    "\n                            "
-                                )
-                              ])
+                            : _c(
+                                "del",
+                                { staticClass: "crossprice newcross" },
+                                [
+                                  _vm._v(
+                                    "\n                                " +
+                                      _vm._s(
+                                        _vm._f("itemCrossPrice")(
+                                          _vm.item.prices.rrp.unitPrice
+                                            .formatted
+                                        )
+                                      ) +
+                                      "\n                            "
+                                  )
+                                ]
+                              )
                         ])
                       : _vm._e(),
                     _vm._v(" "),
