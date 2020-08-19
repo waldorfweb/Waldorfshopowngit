@@ -232,8 +232,12 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
     item: function item() {
       return this.itemData || this.itemDataRef;
     },
+
+    /**
+     * exluce categories
+     */
     isBook: function isBook() {
-      return [3374].includes(this.$store.state.navigation.currentCategory.id);
+      return [].includes(this.$store.state.navigation.currentCategory.id);
     },
 
     /**
@@ -398,7 +402,7 @@ var render = function() {
                 2
               ),
               _vm._v(" "),
-              _vm.isBook
+              !_vm.isBook
                 ? _c("div", { staticClass: "item-details__book-details" }, [
                     _vm.item.texts.name3
                       ? _c("span", { staticClass: "item-details__subtitle" }, [

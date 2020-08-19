@@ -15,16 +15,58 @@
 	color: inherit !important;
 }
 
+
 /* Grid */
 
 .item-details__book-details span{
     float:left;
     width:100%;
     display: block;
-
+    text-align: left;
 }
 .item-details__subtitle {
 }
 .item-details__book-btn {
    display: none;
+}
+
+.item-details__author{
+	margin:10px 0;
+}
+// .item-details__author:before {
+// 	content:"Author: "
+// }
+
+.item-details__book-details .availability{
+	text-align: left;
+	margin:6px 0;
+	padding:0px;
+	display: block;
+    position: relative;
+}
+
+.cmp-product-thumb .prices {
+	display: block;
+	margin:10px 0 !important;
+	display: block;
+    position: relative;
+    margin: 10px 0 !important;
+	float: left;
+	width: 100%;
+}
+.cmp-product-thumb .crossprice {
+    font-size: .81em;
+    font-weight: 700;
+    float: left;
+    line-height: 1.5em;
+    width: 65%;
+}
+.cmp-product-thumb .price {
+    color: #549e50;
+    line-height: 1.1;
+    font-weight: 700;
+    font-size: 1.2rem;
+    float: left;
+    min-height: 21px;
+    width: 35%;
 }
