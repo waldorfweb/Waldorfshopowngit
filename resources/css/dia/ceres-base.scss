@@ -14899,18 +14899,64 @@ body.lb-disable-scrolling { // stylelint-disable-line selector-no-qualifying-typ
 	color: inherit !important;
 }
 
+
+
 /* Grid */
 
 .item-details__book-details span{
-    float:left;
-    width:100%;
-    display: block;
-
+float:left;
+width:100%;
+display: block;
+text-align: left;
 }
 .item-details__subtitle {
 }
 .item-details__book-btn {
-   display: none;
+display: none;
+}
+
+.item-details__author{
+margin:10px 0;
+}
+
+.item-details__book-details .availability{
+text-align: left;
+margin:6px 0;
+padding:0px;
+display: block;
+position: relative;
+float: left;
+}
+.item-details__book-details .availability {
+//padding-left: 20px;
+}
+.cmp-product-thumb .prices {
+display: block;
+margin:10px 0 !important;
+display: block;
+position: relative;
+margin: 10px 0 !important;
+float: left;
+width: 100%;
+}
+.cmp-product-thumb .crossprice {
+font-size: .81em;
+font-weight: 700;
+float: left;
+line-height: 1.5em;
+width: 100%;
+}
+.cmp-product-thumb .price {
+color: #549e50;
+line-height: 1.1;
+font-weight: 700;
+font-size: 1.2rem;
+float: left;
+min-height: 21px;
+width: 100%;
+}
+.cmp-product-thumb .crossprice {
+    color: #b92a38;
 }
 @font-face {
 	font-family:'Signika';
@@ -18148,87 +18194,6 @@ height:auto;
 
 .widget_katalog_box .cmp-product-thumb--grid:before {
     background-image: url(https://trinidub.de/wd/images/background_frame_white.png) !important;
-}
-
-.widget-primary .btn-appearance {
-	color: #fff;
-	background-color: #846bb0;
-	border-color: #846bb0;
-}
-
-.item-details{
-	&__book-details {
-		margin: 5px 0px;
-		display: inline-block;
-
-		.availability_1 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_2 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_3 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D.cls-2%7Bfill:%2332af1e;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_4 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_5 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-2' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_6 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D.cls-2%7Bfill:%23ffcd00;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-2' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-		.availability_7 {
-			background-image: url("data:image/svg+xml,%3Csvg id='Zahlen' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:red;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eavailability_s_00-10%3C/title%3E%3Crect class='cls-1' width='16' height='4'/%3E%3Crect class='cls-1' y='6' width='16' height='4'/%3E%3Crect class='cls-1' y='12' width='16' height='4'/%3E%3C/svg%3E");
-			background-repeat: no-repeat;
-			width: 15px;
-			height: 15px;
-			display: block;
-		}
-	}
-
-	&__author {
-		font-size: 12px;
-		line-height: 18px;
-		display: block;
-		margin: 10px 0px;
-	}
-
-	&__short {
-		font-size: 12px;
-		line-height: 18px;
-		display: block;
-		margin-bottom: 10px;
-	}
-
-	&__book-btn {
-		padding: 15px 0px;
-	}
 }
 
 /* CSS after update ceres 5
