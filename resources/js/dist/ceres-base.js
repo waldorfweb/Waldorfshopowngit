@@ -69250,6 +69250,8 @@ function eraseCookie(key) {
 $(function () {//alert('test5');
 });
 $(document).ready(function () {
+  $(".search-input ").attr("placeholder", "Suche");
+
   if ($("body").hasClass("item-10000621")) {//alert('test3');
     //alert('test4');
   }
@@ -69834,28 +69836,28 @@ window.$ = jquery__WEBPACK_IMPORTED_MODULE_17___default.a;
 // =========================
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("add-item-to-basket-overlay", function () {
-  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/AddItemToBasketOverlay.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/AddItemToBasketOverlay.vue"));
+  return __webpack_require__.e(/*! import() */ 15).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/AddItemToBasketOverlay.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/AddItemToBasketOverlay.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("add-to-basket", function () {
   return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/AddToBasket.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/AddToBasket.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("basket-preview", function () {
-  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/BasketPreview.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/BasketPreview.vue"));
+  return __webpack_require__.e(/*! import() */ 16).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/BasketPreview.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/BasketPreview.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("basket-totals", function () {
-  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/BasketTotals.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/BasketTotals.vue"));
+  return __webpack_require__.e(/*! import() */ 17).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/BasketTotals.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/BasketTotals.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("coupon", function () {
-  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/Coupon.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue"));
+  return __webpack_require__.e(/*! import() */ 18).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/Coupon.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/Coupon.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("basket-list", function () {
   return __webpack_require__.e(/*! import() */ 3).then(__webpack_require__.bind(null, /*! ceres/app/components/basket/list/BasketList.vue */ "./node_modules/Ceres/resources/js/src/app/components/basket/list/BasketList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("step-by-step-navigation", function () {
-  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ceres/app/components/category/StepByStepNavigation.vue */ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue"));
+  return __webpack_require__.e(/*! import() */ 19).then(__webpack_require__.bind(null, /*! ceres/app/components/category/StepByStepNavigation.vue */ "./node_modules/Ceres/resources/js/src/app/components/category/StepByStepNavigation.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("google-maps-widget", function () {
-  return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! ceres/app/components/common/GoogleMaps.vue */ "./node_modules/Ceres/resources/js/src/app/components/common/GoogleMaps.vue"));
+  return __webpack_require__.e(/*! import() */ 20).then(__webpack_require__.bind(null, /*! ceres/app/components/common/GoogleMaps.vue */ "./node_modules/Ceres/resources/js/src/app/components/common/GoogleMaps.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("lazy-img", ceres_app_components_common_LazyImg_vue__WEBPACK_IMPORTED_MODULE_20__["default"]);
@@ -69866,10 +69868,10 @@ vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("tab-list", ceres_app_comp
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("tab-item", ceres_app_components_common_TabItem_vue__WEBPACK_IMPORTED_MODULE_23__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("last-seen-item-list", function () {
-  return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! ceres/app/components/containers/LastSeenItemList.vue */ "./node_modules/Ceres/resources/js/src/app/components/containers/LastSeenItemList.vue"));
+  return __webpack_require__.e(/*! import() */ 21).then(__webpack_require__.bind(null, /*! ceres/app/components/containers/LastSeenItemList.vue */ "./node_modules/Ceres/resources/js/src/app/components/containers/LastSeenItemList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("change-email-form", function () {
-  return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/ChangeEmailForm.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue"));
+  return __webpack_require__.e(/*! import() */ 22).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/ChangeEmailForm.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/ChangeEmailForm.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("recaptcha", ceres_app_components_customer_ReCaptcha_vue__WEBPACK_IMPORTED_MODULE_24__["default"]);
@@ -69877,69 +69879,69 @@ vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("registration", function (
   return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/Registration.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/Registration.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("reset-password-form", function () {
-  return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/ResetPasswordForm.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue"));
+  return __webpack_require__.e(/*! import() */ 23).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/ResetPasswordForm.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/ResetPasswordForm.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("forgot-password-modal", function () {
-  return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/ForgotPassword.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/ForgotPassword.vue"));
+  return __webpack_require__.e(/*! import() */ 24).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/ForgotPassword.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/ForgotPassword.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("guest-login", function () {
-  return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/GuestLogin.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/GuestLogin.vue"));
+  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/GuestLogin.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/GuestLogin.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("login", function () {
-  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/Login.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/Login.vue"));
+  return __webpack_require__.e(/*! import() */ 11).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/Login.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/Login.vue"));
 }); // legacy non-shopbuilder component
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("login-view", function () {
-  return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/LoginView.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/LoginView.vue"));
+  return __webpack_require__.e(/*! import() */ 25).then(__webpack_require__.bind(null, /*! ceres/app/components/customer/login/LoginView.vue */ "./node_modules/Ceres/resources/js/src/app/components/customer/login/LoginView.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("user-login-handler", ceres_app_components_customer_login_UserLoginHandler_vue__WEBPACK_IMPORTED_MODULE_25__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-bundle", function () {
-  return __webpack_require__.e(/*! import() */ 30).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemBundle.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemBundle.vue"));
+  return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemBundle.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemBundle.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("order-property-value", function () {
-  return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.bind(null, /*! ceres/app/components/item/OrderPropertyValue.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/OrderPropertyValue.vue"));
+  return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.bind(null, /*! ceres/app/components/item/OrderPropertyValue.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/OrderPropertyValue.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("quantity-input", function () {
-  return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.bind(null, /*! ceres/app/components/item/QuantityInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/QuantityInput.vue"));
+  return __webpack_require__.e(/*! import() */ 33).then(__webpack_require__.bind(null, /*! ceres/app/components/item/QuantityInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/QuantityInput.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("tag-list", function () {
-  return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.bind(null, /*! ceres/app/components/item/TagList.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/TagList.vue"));
+  return __webpack_require__.e(/*! import() */ 37).then(__webpack_require__.bind(null, /*! ceres/app/components/item/TagList.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/TagList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("category-item", function () {
-  return Promise.all(/*! import() */[__webpack_require__.e(8), __webpack_require__.e(15)]).then(__webpack_require__.bind(null, /*! ~/app/components/itemList/CategoryItem.vue */ "./resources/js/src/app/components/itemList/CategoryItem.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(14), __webpack_require__.e(48)]).then(__webpack_require__.bind(null, /*! ~/app/components/itemList/CategoryItem.vue */ "./resources/js/src/app/components/itemList/CategoryItem.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-search", ceres_app_components_itemList_ItemSearch_vue__WEBPACK_IMPORTED_MODULE_26__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("search-suggestion-item", function () {
-  return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! ceres/app/components/itemList/SearchSuggestionItem.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/SearchSuggestionItem.vue"));
+  return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.bind(null, /*! ceres/app/components/itemList/SearchSuggestionItem.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/SearchSuggestionItem.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-filter-list", function () {
   return __webpack_require__.e(/*! import() */ 7).then(__webpack_require__.bind(null, /*! ceres/app/components/itemList/filter/ItemFilterList.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/filter/ItemFilterList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-filter-tag-list", function () {
-  return __webpack_require__.e(/*! import() */ 41).then(__webpack_require__.bind(null, /*! ceres/app/components/itemList/filter/ItemFilterTagList.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/filter/ItemFilterTagList.vue"));
+  return __webpack_require__.e(/*! import() */ 40).then(__webpack_require__.bind(null, /*! ceres/app/components/itemList/filter/ItemFilterTagList.vue */ "./node_modules/Ceres/resources/js/src/app/components/itemList/filter/ItemFilterTagList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("live-shopping-item", function () {
   return __webpack_require__.e(/*! import() */ 6).then(__webpack_require__.bind(null, /*! ceres/app/components/liveShopping/LiveShoppingItem.vue */ "./node_modules/Ceres/resources/js/src/app/components/liveShopping/LiveShoppingItem.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("newsletter-input", function () {
-  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ceres/app/components/newsletter/NewsletterInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/newsletter/NewsletterInput.vue"));
+  return __webpack_require__.e(/*! import() */ 12).then(__webpack_require__.bind(null, /*! ceres/app/components/newsletter/NewsletterInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/newsletter/NewsletterInput.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("newsletter-unsubscribe-input", function () {
-  return __webpack_require__.e(/*! import() */ 14).then(__webpack_require__.bind(null, /*! ceres/app/components/newsletter/NewsletterUnsubscribeInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/newsletter/NewsletterUnsubscribeInput.vue"));
+  return __webpack_require__.e(/*! import() */ 13).then(__webpack_require__.bind(null, /*! ceres/app/components/newsletter/NewsletterUnsubscribeInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/newsletter/NewsletterUnsubscribeInput.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("order-return", function () {
   return __webpack_require__.e(/*! import() */ 2).then(__webpack_require__.bind(null, /*! ceres/app/components/orderReturn/OrderReturn.vue */ "./node_modules/Ceres/resources/js/src/app/components/orderReturn/OrderReturn.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("cookie-bar", function () {
-  return __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/CookieBar.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/CookieBar.vue"));
+  return __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/CookieBar.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/CookieBar.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("privacy-settings", function () {
-  return __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/PrivacySettings.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/PrivacySettings.vue"));
+  return __webpack_require__.e(/*! import() */ 46).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/PrivacySettings.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/PrivacySettings.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("carousel", function () {
-  return __webpack_require__.e(/*! import() */ 43).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/Carousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue"));
+  return __webpack_require__.e(/*! import() */ 42).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/Carousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Carousel.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("icon", ceres_app_components_pageDesign_Icon_vue__WEBPACK_IMPORTED_MODULE_27__["default"]);
@@ -69948,56 +69950,56 @@ vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("mobile-navigation", ceres
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("notifications", ceres_app_components_pageDesign_Notifications_vue__WEBPACK_IMPORTED_MODULE_29__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("popper", function () {
-  return __webpack_require__.e(/*! import() */ 46).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/Popper.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Popper.vue"));
+  return __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/Popper.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/Popper.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("shipping-country-select", function () {
-  return __webpack_require__.e(/*! import() */ 48).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/ShippingCountrySelect.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/ShippingCountrySelect.vue"));
+  return __webpack_require__.e(/*! import() */ 47).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/ShippingCountrySelect.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/ShippingCountrySelect.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("loading-animation", function () {
-  return __webpack_require__.e(/*! import() */ 45).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/LoadingAnimation.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/LoadingAnimation.vue"));
+  return __webpack_require__.e(/*! import() */ 44).then(__webpack_require__.bind(null, /*! ceres/app/components/pageDesign/LoadingAnimation.vue */ "./node_modules/Ceres/resources/js/src/app/components/pageDesign/LoadingAnimation.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("wish-list", function () {
-  return __webpack_require__.e(/*! import() */ 10).then(__webpack_require__.bind(null, /*! ceres/app/components/wishList/WishList.vue */ "./node_modules/Ceres/resources/js/src/app/components/wishList/WishList.vue"));
+  return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ceres/app/components/wishList/WishList.vue */ "./node_modules/Ceres/resources/js/src/app/components/wishList/WishList.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("wish-list-count", ceres_app_components_wishList_WishListCount_vue__WEBPACK_IMPORTED_MODULE_30__["default"]);
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("lazy-load", ceres_app_components_common_LazyLoad_vue__WEBPACK_IMPORTED_MODULE_31__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("add-to-wish-list", function () {
-  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! ceres/app/components/item/AddToWishList.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/AddToWishList.vue"));
+  return __webpack_require__.e(/*! import() */ 26).then(__webpack_require__.bind(null, /*! ceres/app/components/item/AddToWishList.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/AddToWishList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("graduated-prices", function () {
-  return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! ceres/app/components/item/GraduatedPrices.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/GraduatedPrices.vue"));
+  return __webpack_require__.e(/*! import() */ 27).then(__webpack_require__.bind(null, /*! ceres/app/components/item/GraduatedPrices.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/GraduatedPrices.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-data-table", function () {
   return __webpack_require__.e(/*! import() */ 4).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemDataTable.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemDataTable.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-image-carousel", function () {
-  return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemImageCarousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemImageCarousel.vue"));
+  return __webpack_require__.e(/*! import() */ 30).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemImageCarousel.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemImageCarousel.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-price", function () {
-  return __webpack_require__.e(/*! import() */ 32).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemPrice.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemPrice.vue"));
+  return __webpack_require__.e(/*! import() */ 31).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemPrice.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemPrice.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("set-price", function () {
-  return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SetPrice.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SetPrice.vue"));
+  return __webpack_require__.e(/*! import() */ 34).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SetPrice.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SetPrice.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("order-property-list", function () {
   return __webpack_require__.e(/*! import() */ 5).then(__webpack_require__.bind(null, /*! ceres/app/components/item/OrderPropertyList.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/OrderPropertyList.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("variation-select", function () {
-  return __webpack_require__.e(/*! import() */ 39).then(__webpack_require__.bind(null, /*! ceres/app/components/item/VariationSelect.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/VariationSelect.vue"));
+  return __webpack_require__.e(/*! import() */ 38).then(__webpack_require__.bind(null, /*! ceres/app/components/item/VariationSelect.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/VariationSelect.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("item-availability", function () {
-  return __webpack_require__.e(/*! import() */ 29).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemAvailability.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemAvailability.vue"));
+  return __webpack_require__.e(/*! import() */ 28).then(__webpack_require__.bind(null, /*! ceres/app/components/item/ItemAvailability.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/ItemAvailability.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("single-item-bundle", function () {
-  return __webpack_require__.e(/*! import() */ 9).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SingleItemBundle.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SingleItemBundle.vue"));
+  return __webpack_require__.e(/*! import() */ 8).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SingleItemBundle.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SingleItemBundle.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("single-add-to-basket", function () {
-  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(37)]).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SingleAddToBasket.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SingleAddToBasket.vue"));
+  return Promise.all(/*! import() */[__webpack_require__.e(0), __webpack_require__.e(36)]).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SingleAddToBasket.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SingleAddToBasket.vue"));
 });
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("set-quantity-input", function () {
-  return __webpack_require__.e(/*! import() */ 36).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SetQuantityInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SetQuantityInput.vue"));
+  return __webpack_require__.e(/*! import() */ 35).then(__webpack_require__.bind(null, /*! ceres/app/components/item/SetQuantityInput.vue */ "./node_modules/Ceres/resources/js/src/app/components/item/SetQuantityInput.vue"));
 });
 
 vue__WEBPACK_IMPORTED_MODULE_14___default.a.component("single-item", ceres_app_components_item_SingleItem_vue__WEBPACK_IMPORTED_MODULE_32__["default"]);

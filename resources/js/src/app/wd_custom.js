@@ -41,6 +41,7 @@ $(function() {
 
 $(document).ready(function() {
 
+    $(".search-input ").attr("placeholder", "Suche");
 
 	if ($("body").hasClass("item-10000621")) {
       //alert('test3');
