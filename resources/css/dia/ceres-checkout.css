@@ -13886,8 +13886,8 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 .item-details__book-details .availability:before {
   float: left;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   margin-right: 6px;
   content: " ";
   border-radius: 0.25rem; }
