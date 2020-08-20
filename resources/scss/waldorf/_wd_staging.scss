@@ -19,6 +19,10 @@
 
 /* Grid */
 
+.cmp-product-thumb .thumb-title{
+    min-height:24px;
+}
+
 .item-details__book-details span{
 float:left;
 width:100%;
@@ -26,13 +30,18 @@ display: block;
 text-align: left;
 }
 .item-details__subtitle {
+    font-size: 13px;
+    line-height: 1.5em;
+    padding:0px;
 }
 .item-details__book-btn {
  display: none;
 }
 
 .item-details__author{
-margin:10px 0;
+    padding:4px 0;
+    font-size: 14px;
+    line-height: 1.5em;
 }
 .item-details__short{
     font-size:12px !important;
@@ -93,7 +102,16 @@ width: 100%;
         content:" ";
         border-radius: 0.25rem;
         }
-
+        // .item-details__book-details .availability i:before{
+        //     float:left;
+        //     width: 20px;
+        //     height:20px;
+        //     margin-right:6px;
+        //     content:"\f0c9";
+        //     border-radius: 0.25rem;
+        //     color:red;
+        //     font-family: "Font Awesome 5 Free" !important;
+        //     }
 .item-details__book-details .availability_1:before{
     color: #fff;
     background-color: #28a745; }

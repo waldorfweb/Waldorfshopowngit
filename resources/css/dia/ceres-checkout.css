@@ -13814,17 +13814,27 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
   color: inherit !important; }
 
 /* Grid */
+.cmp-product-thumb .thumb-title {
+  min-height: 24px; }
+
 .item-details__book-details span {
   float: left;
   width: 100%;
   display: block;
   text-align: left; }
 
+.item-details__subtitle {
+  font-size: 13px;
+  line-height: 1.5em;
+  padding: 0px; }
+
 .item-details__book-btn {
   display: none; }
 
 .item-details__author {
-  margin: 10px 0; }
+  padding: 4px 0;
+  font-size: 14px;
+  line-height: 1.5em; }
 
 .item-details__short {
   font-size: 12px !important;
@@ -15274,7 +15284,7 @@ nav.navbar.megamenu #mainNavbarCollapsable ul.mainmenu>li>ul.collapse>li ul.nav-
   position: relative; }
 
 .widget_kat_description_2 {
-  font-size: 80%;
+  font-size: 90%;
   background: white !important;
   height: auto;
   display: block;
