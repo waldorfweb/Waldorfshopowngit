@@ -111,23 +111,7 @@
                         <span v-if="item.variation.mayShowUnitPrice">&nbsp;| {{ item.prices.default.basePrice }}</span>
                     </div>
 
-                    <add-to-basket
-                            :variation-id="item.variation.id"
-                            :is-salable="!!item.filter && item.filter.isSalable"
-                            :has-children="!!item.item && item.item.salableVariationCount > 1"
-                            :interval-quantity="item.variation.intervalOrderQuantity || 1"
-                            :minimum-quantity="item.variation.minimumOrderQuantity"
-                            :maximum-quantity="!!item.variation.maximumOrderQuantity && item.variation.maximumOrderQuantity > 0 ? item.variation.maximumOrderQuantity : null"
-                            :order-properties="item.properties.filter(function(prop) { return prop.property.isOderProperty })"
-                            :has-order-properties="item.hasOrderProperties"
-                            :use-large-scale="false"
-                            :show-quantity="false"
-                            :item-url="item | itemURL(urlWithVariationId)"
-                            :has-price="item | hasItemDefaultPrice"
-                            :item-type="item.item.itemType">
-                    </add-to-basket>
-
-                    <div class="vat small text-muted">
+                     <div class="vat small text-muted">
                         * <span v-if="showNetPrices">{{ $translate("Ceres::Template.itemExclVAT") }}</span>
                         <span v-else>{{ $translate("Ceres::Template.itemInclVAT") }}</span>
                         {{ $translate("Ceres::Template.itemExclusive") }}
@@ -144,6 +128,21 @@
             </slot>
             <!-- ./ITEM DETAILS  -->
         </div>
+        <add-to-basket
+                            :variation-id="item.variation.id"
+                            :is-salable="!!item.filter && item.filter.isSalable"
+                            :has-children="!!item.item && item.item.salableVariationCount > 1"
+                            :interval-quantity="item.variation.intervalOrderQuantity || 1"
+                            :minimum-quantity="item.variation.minimumOrderQuantity"
+                            :maximum-quantity="!!item.variation.maximumOrderQuantity && item.variation.maximumOrderQuantity > 0 ? item.variation.maximumOrderQuantity : null"
+                            :order-properties="item.properties.filter(function(prop) { return prop.property.isOderProperty })"
+                            :has-order-properties="item.hasOrderProperties"
+                            :use-large-scale="false"
+                            :show-quantity="false"
+                            :item-url="item | itemURL(urlWithVariationId)"
+                            :has-price="item | hasItemDefaultPrice"
+                            :item-type="item.item.itemType">
+                    </add-to-basket>
     </article>
 </template>
 

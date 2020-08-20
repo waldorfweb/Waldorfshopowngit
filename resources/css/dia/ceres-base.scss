@@ -14891,18 +14891,17 @@ body.lb-disable-scrolling { // stylelint-disable-line selector-no-qualifying-typ
     display: none !important;
     border:0px solid white;
 }
-
 /* Anpassung für Formatierungsfehler in Produkttexten */
 .tab-pane p span, .category-description p span, .category-description h2 span {
 	font-family: inherit !important;
 	font-size: inherit !important;
 	color: inherit !important;
 }
-
-
-
 /* Grid */
 
+.cmp-product-thumb .thumb-title{
+    min-height:24px;
+}
 .item-details__book-details span{
 float:left;
 width:100%;
@@ -14910,26 +14909,28 @@ display: block;
 text-align: left;
 }
 .item-details__subtitle {
+    font-size: 13px;
+    line-height: 1.5em;
+    padding:0px;
 }
 .item-details__book-btn {
-display: none;
+ display: none;
 }
 
 .item-details__author{
-margin:10px 0;
+    padding:4px 0;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+.item-details__short{
+    font-size:12px !important;
+    line-height:1.2em;
+    padding:6px 0;
+}
+.thumb-title{
+    line-height: 1.5em !important;
 }
 
-.item-details__book-details .availability{
-text-align: left;
-margin:6px 0;
-padding:0px;
-display: block;
-position: relative;
-float: left;
-}
-.item-details__book-details .availability {
-//padding-left: 20px;
-}
 .cmp-product-thumb .prices {
 display: block;
 margin:10px 0 !important;
@@ -14958,6 +14959,83 @@ width: 100%;
 .cmp-product-thumb .crossprice {
     color: #b92a38;
 }
+
+.item-details__book-details .availability{
+    text-align: left;
+    margin:6px 0;
+    padding:0px;
+    display: block;
+    position: relative;
+    float: left;
+    white-space: break-inherit;
+    }
+@media only screen and (max-width: 500px) {
+    .item-details__book-details .availability{
+        white-space: inherit;
+        }
+}
+.item-details__book-details .availability span{
+    // padding-left: 20px;
+    width: auto;
+    line-height: 1.5em;
+    }
+.item-details__book-details .availability:before{
+        float:left;
+        width: 16px;
+        height:16px;
+        margin-right:6px;
+        content:" ";
+        border-radius: 0.25rem;
+    }
+    // .item-details__book-details .availability i:before{
+    //     float:left;
+    //     width: 20px;
+    //     height:20px;
+    //     margin-right:6px;
+    //     content:"\f0c9";
+    //     border-radius: 0.25rem;
+    //     color:red;
+    //     font-family: "Font Awesome 5 Free" !important;
+    //     }
+.item-details__book-details .availability_1:before{
+    color: #fff;
+    background-color: #28a745; }
+  
+.item-details__book-details .availability_2:before {
+    color: #fff;
+    background-color: #28a745; }
+  
+.item-details__book-details .availability_3:before {
+    color: #212529;
+    background-color: #ffc107; }
+  
+.item-details__book-details .availability_4:before {
+    color: #212529;
+    background-color: #ffc107; }
+  
+.item-details__book-details .availability_5:before {
+    color: #fff;
+    background-color: #d4021d; }
+  
+.item-details__book-details .availability_6:before {
+    color: #fff;
+    background-color: #d4021d; }
+  
+.item-details__book-details .availability_7:before {
+    color: #fff;
+    background-color: #d4021d; }
+  
+.item-details__book-details .availability_8:before {
+    color: #fff;
+    background-color: #d4021d; }
+  
+.item-details__book-details .availability_9:before {
+    color: #fff;
+    background-color: #212529; }
+  
+.item-details__book-details .availability-10:before {
+    color: #fff;
+    background-color: #212529; }
 @font-face {
 	font-family:'Signika';
 	font-style:normal;
@@ -16601,7 +16679,7 @@ float:left;
 position:relative;
 }
 .widget_kat_description_2{
-    font-size: 80%;
+    font-size: 90%;
     background: white !important;
     height: auto;
     display: block;
