@@ -288,9 +288,7 @@ var render = function() {
                             staticClass: "custom-control-input",
                             attrs: { type: "checkbox" },
                             domProps: {
-                              checked: _vm.isConsented(
-                                "{{ consentGroup.key }}.*"
-                              )
+                              checked: _vm.isConsented(consentGroup.key + ".*")
                             }
                           }),
                           _vm._v(" "),
@@ -374,7 +372,9 @@ var render = function() {
                                             attrs: { type: "checkbox" },
                                             domProps: {
                                               checked: _vm.isConsented(
-                                                "{{ consentGroup.key }}.{{ consent.key }}"
+                                                consentGroup.key +
+                                                  "." +
+                                                  consent.key
                                               )
                                             }
                                           }),

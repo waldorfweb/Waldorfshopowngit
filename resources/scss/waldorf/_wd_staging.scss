@@ -3,6 +3,12 @@
 	grün #42974c
 */
 
+.search-input{
+    font-family: Custom-Font, Signika, Arial;
+    color: #b92a38 !important;
+    font-size: 13px;
+}
+
 .mobile-navigation {
     background: #b92a38;
 
@@ -20,6 +26,10 @@
 	color: inherit !important;
 }
 /* Grid */
+
+.item-details__author, .item-details__subtitle{
+    display: none !important;
+}
 
 .cmp-product-thumb .thumb-title{
     min-height:24px;
