@@ -13807,6 +13807,10 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 	rot #b92a38
 	grün #42974c
 */
+/* Header */
+.control-user .dropdown .dropdown-menu a {
+  background-color: #b92a38 !important; }
+
 .search-input {
   font-family: Custom-Font, Signika, Arial;
   color: #b92a38 !important;
