@@ -232,7 +232,9 @@ content:">" !important;
     font-size:20px;
 }
 
-
+.megamenu .collapse-inner a {
+    color: #606060;
+}
 /* Genussrechte */
 .widget-stacked-mobile:last-child .circle-wrap .circle .mask.full,.widget-stacked-mobile:last-child .circle-wrap .circle .fill {
     animation: fill ease-in-out 3s;
