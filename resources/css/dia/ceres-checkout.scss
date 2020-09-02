@@ -15500,7 +15500,7 @@ html.ie .confirmation-order-list .cmp-order-item {
 
 .search-input{
     font-family: Custom-Font, Signika, Arial;
-    color: #b92a38 !important;
+    color: #606060 !important;
     font-size: 13px;
 }
 
@@ -18074,7 +18074,7 @@ div[id^=n2goForm] {
 }
 
 #donations header:before {
-	content:"Spenden Sie für die Notfallpädagogik"!important;
+	content:"Spenden Sie für die Freunde Waldorf"!important;
 	display:block!important;
 	font-size:21px;
 	font-family:Custom-Font,Helvetica,Arial,sans-serif;
@@ -19139,7 +19139,9 @@ content:">" !important;
     font-size:20px;
 }
 
-
+.megamenu .collapse-inner a {
+    color: #606060;
+}
 /* Genussrechte */
 .widget-stacked-mobile:last-child .circle-wrap .circle .mask.full,.widget-stacked-mobile:last-child .circle-wrap .circle .fill {
     -webkit-animation: fill ease-in-out 3s;

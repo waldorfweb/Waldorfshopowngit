@@ -13813,7 +13813,7 @@ a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
 
 .search-input {
   font-family: Custom-Font, Signika, Arial;
-  color: #b92a38 !important;
+  color: #606060 !important;
   font-size: 13px; }
 
 .mobile-navigation {
@@ -16747,6 +16747,9 @@ div[id^='trustbadge-minimized-menu-button'], div[id*='trustbadge-minimized-menu-
   width: 10px;
   color: #b92a38;
   font-size: 20px; }
+
+.megamenu .collapse-inner a {
+  color: #606060; }
 
 /* Genussrechte */
 .widget-stacked-mobile:last-child .circle-wrap .circle .mask.full, .widget-stacked-mobile:last-child .circle-wrap .circle .fill {
