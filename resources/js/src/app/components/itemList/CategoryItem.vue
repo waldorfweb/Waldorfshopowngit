@@ -55,7 +55,7 @@
                     --><span v-for="attribute in item.groupedAttributes">{{ "Ceres::Template.itemGroupedAttribute" | translate(attribute) }}</span>
 
                     </a>
-                    
+
                     <div v-if="!isBook"  class="item-details__book-details">
 
                         <span v-if="item.texts.name3" class="item-details__subtitle">
@@ -202,7 +202,10 @@ export default {
          * exluce categories
          */
         isBook() {
-            return [].includes(this.$store.state.navigation.currentCategory.id);
+            if(this.$store.state.navigation.currentCategory != null){
+                return [].includes(this.$store.state.navigation.currentCategory.id);
+            }
+            return false
         },
 
         /**

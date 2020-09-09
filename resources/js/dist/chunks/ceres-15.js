@@ -236,7 +236,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
      * exluce categories
      */
     isBook: function isBook() {
-      return [].includes(this.$store.state.navigation.currentCategory.id);
+      if (this.$store.state.navigation.currentCategory != null) {
+        return [].includes(this.$store.state.navigation.currentCategory.id);
+      }
+
+      return false;
     },
 
     /**
