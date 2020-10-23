@@ -14943,6 +14943,15 @@ body div#vue-app div div#page-body div div div div div div div div div div#MZOut
 .page-singleitem #thumb-carousel.owl-carousel .carousel-control {
   margin-top: 4% !important; }
 
+/* badges */
+.widget_badge img {
+  width: 100%; }
+
+.widget_badge .badge {
+  width: 120px;
+  height: auto;
+  background: none !important; }
+
 .svgformfooter {
   position: relative;
   float: left;

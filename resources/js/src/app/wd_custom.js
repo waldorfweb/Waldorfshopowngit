@@ -12,7 +12,6 @@ var Tawk_API = Tawk_API || {},
 })();
 
 
-
 /// Set Cookies -->
 function setCookie(key, value, expiry) {
     var expires = new Date();
@@ -37,8 +36,7 @@ $(function() {
 });
 
 
-
-
+require(['jQuery'], function ($) {
 $(document).ready(function() {
 
     $(".search-input ").attr("placeholder", "Suche");
@@ -62,13 +60,28 @@ $('.megamenu .level2').each(function(){
 
 
 $("span.badge span").each(function() {
-    console.log($(this).text() + ' working');
+    //console.log($(this).text() + ' working');
   });
 
-	//Artikeldetail
 
-	$('.page-singleitem .widget_tags .badge span').css('display', 'none');
-	$('.page-singleitem .widget_tags .badge span').each(function () {
+  $( "span" ).each( function(){
+    //console.log( $( this ).text() );
+})
+	//Artikeldetail
+    $('.widget_badge').each(function(){
+        //$('.widget_badge .badge').addClass('test');
+        //$(this).addClass('test');
+        //var n = $(this,'span span').html(); 
+  //console.log(n);
+
+    });
+
+    //$('.badge').addClass('test');
+
+	$('.page-singleitem .widget_badge .badge span').css('display', 'none');
+	$('.page-singleitem .widget_badge .badge span').each(function () {
+        
+
 	    if ($(this).text() == 'Spielgut') {
             console.log('Spielgut');
 	        $(this).css('display', 'block');
@@ -494,7 +507,7 @@ $(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plen
     $('.widget_button_ideenforum a').addClass('btn btn-primary');
 
 });
-
+});
 
 // Document Ready End
 
