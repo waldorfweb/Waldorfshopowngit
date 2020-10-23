@@ -81051,6 +81051,7 @@ $(document).ready(function () {
   $('.page-singleitem .widget_tags .badge span').css('display', 'none');
   $('.page-singleitem .widget_tags .badge span').each(function () {
     if ($(this).text() == 'Spielgut') {
+      console.log('Spielgut');
       $(this).css('display', 'block');
       $(this).html('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/spielgut.png" alt="Spielgut">');
     }
