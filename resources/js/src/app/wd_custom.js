@@ -58,24 +58,6 @@ $('.megamenu .level2').each(function(){
 });
 
 
-
-$("span.badge span").each(function() {
-    //console.log($(this).text() + ' working');
-  });
-
-
-  $( "span" ).each( function(){
-    //console.log( $( this ).text() );
-})
-	//Artikeldetail
-    $('.widget_badge').each(function(){
-        //$('.widget_badge .badge').addClass('test');
-        //$(this).addClass('test');
-        //var n = $(this,'span span').html(); 
-  //console.log(n);
-
-    });
-
     //$('.badge').addClass('test');
 
 	$('.page-singleitem .widget_badge .badge span').css('display', 'none');

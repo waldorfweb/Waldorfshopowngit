@@ -81045,16 +81045,6 @@ __webpack_require__.e(/*! AMD require */ 49).then(function() { var __WEBPACK_AMD
     });
     $('.megamenu .level2').each(function () {
       $(this).siblings(".level2").addClass('navpfeil');
-    });
-    $("span.badge span").each(function () {//console.log($(this).text() + ' working');
-    });
-    $("span").each(function () {//console.log( $( this ).text() );
-    }); //Artikeldetail
-
-    $('.widget_badge').each(function () {//$('.widget_badge .badge').addClass('test');
-      //$(this).addClass('test');
-      //var n = $(this,'span span').html(); 
-      //console.log(n);
     }); //$('.badge').addClass('test');
 
     $('.page-singleitem .widget_badge .badge span').css('display', 'none');
