@@ -57,13 +57,11 @@ $('.megamenu .level2').each(function(){
 	$(this).siblings( ".level2" ).addClass('navpfeil');
 });
 
-
     //$('.badge').addClass('test');
 
 	$('.page-singleitem .widget_badge .badge span').css('display', 'none');
 	$('.page-singleitem .widget_badge .badge span').each(function () {
         
-
 	    if ($(this).text() == 'Spielgut') {
             console.log('Spielgut');
 	        $(this).css('display', 'block');
