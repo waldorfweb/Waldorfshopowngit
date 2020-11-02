@@ -38,7 +38,7 @@ $(function() {
 
 require(['jQuery'], function ($) {
 $(document).ready(function() {
-
+$(".btn-collapse").click();
     $(".search-input ").attr("placeholder", "Suche");
 
 	if ($("body").hasClass("item-10000621")) {
