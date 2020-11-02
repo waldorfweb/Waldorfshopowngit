@@ -36,9 +36,11 @@ $(function() {
 });
 
 
-//require(['jQuery'], function ($) {
+require(['jQuery'], function ($) {
 $(document).ready(function() {
+
 $(".btn-collapse").click();
+
     $(".search-input ").attr("placeholder", "Suche");
 
 	if ($("body").hasClass("item-10000621")) {
@@ -488,7 +490,7 @@ $(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plen
 
 });
 
-//});
+});
 
 // Document Ready End
 
