@@ -81031,7 +81031,6 @@ $(function () {//alert('test5');
 
 __webpack_require__.e(/*! AMD require */ 49).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [__webpack_require__(/*! jQuery */ "./node_modules/jQuery/dist/jquery.js")]; (function ($) {
   $(document).ready(function () {
-    $(".btn-collapse").click();
     $(".search-input ").attr("placeholder", "Suche");
 
     if ($("body").hasClass("item-10000621")) {//alert('test3');

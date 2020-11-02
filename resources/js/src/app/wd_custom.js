@@ -37,13 +37,8 @@ $(function() {
 
 
 require(['jQuery'], function ($) {
-
-    
-      
-   
 $(document).ready(function() {
 
-$(".btn-collapse").click();
 
     $(".search-input ").attr("placeholder", "Suche");
 
