@@ -37,6 +37,10 @@ $(function() {
 
 
 require(['jQuery'], function ($) {
+
+    
+      
+   
 $(document).ready(function() {
 
 $(".btn-collapse").click();
@@ -489,7 +493,6 @@ $(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plen
     $('.widget_button_ideenforum a').addClass('btn btn-primary');
 
 });
-
 });
 
 // Document Ready End
