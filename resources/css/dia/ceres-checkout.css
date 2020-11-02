@@ -15951,6 +15951,11 @@ div[id^=n2goForm] {
 .widget_topseller_grid .widget-caption a {
   display: none; }
 
+.widget_topseller a {
+  color: #999 !important;
+  font-size: 13px;
+  line-height: 4.1; }
+
 @media (min-width: 992px) {
   .wrapper-main .breadcrumbs {
     background: #b5accf; }
