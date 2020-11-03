@@ -36,9 +36,11 @@ $(function() {
 });
 
 
-require(['jQuery'], function ($) {
-$(document).ready(function() {
-
+//require(['jQuery'], function ($) {
+    //$(document).ready(function(){
+        $(window).on("load", function(){
+        //$().ready(function(){
+        //alert('test');
 
     $(".search-input ").attr("placeholder", "Suche");
 
@@ -488,7 +490,7 @@ $(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plen
     $('.widget_button_ideenforum a').addClass('btn btn-primary');
 
 });
-});
+//});
 
 // Document Ready End
 
