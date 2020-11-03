@@ -40,7 +40,7 @@ $(function() {
     //$(document).ready(function(){
         $(window).on("load", function(){
         //$().ready(function(){
-        //alert('test');
+        //alert('test'); 
  
     $(".search-input ").attr("placeholder", "Suche");
 

@@ -69525,7 +69525,7 @@ $(function () {//alert('test5');
 
 $(window).on("load", function () {
   //$().ready(function(){
-  //alert('test');
+  //alert('test'); 
   $(".search-input ").attr("placeholder", "Suche");
 
   if ($("body").hasClass("item-10000621")) {//alert('test3');
