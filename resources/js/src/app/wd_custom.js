@@ -162,9 +162,17 @@ $('.megamenu .level2').each(function(){
 	//$('#ShippingProfileID267').addClass('selbstabholericon');
 	$('img[alt="DHL"]').remove();
 	//$('.method-list  .icon').prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Versandicons/selbstabholer.jpg" width="100%">');
-$(".method-list-item[data-id='6'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Versandicons/dhl_neu.jpg" width="100%">');
-$(".method-list-item[data-id='20'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Versandicons/dhl_sofort_3.jpg" width="100%">');
-$(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Versandicons/selbstabholer.jpg" width="100%">');
+$(".method-list-item[data-id='6'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/DHl_Sammelversand.png" width="100%">');
+$(".method-list-item[data-id='20'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/DHL_Sofor-Teilung.png" width="100%">');
+$(".method-list-item[data-id='7'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Abholer.png" width="100%">');
+$(".method-list-item[data-id='8'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/E-Mail.png" width="100%">');
+$(".method-list-item[data-id='13'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Sperrgut.png" width="100%">');
+$(".method-list-item[data-id='26'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Warensendung-DHL.png" width="100%">');
+$(".method-list-item[data-id='15'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Grossbrief.png" width="100%">');
+$(".method-list-item[data-id='18'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Dialogpost.png" width="100%">');
+$(".method-list-item[data-id='30'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Katlaogversand.png" width="100%">');
+$(".method-list-item[data-id='14'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Spedition.png" width="100%">');
+$(".method-list-item[data-id='19'] .icon" ).prepend('<img src="https://cdn02.plentymarkets.com/rm2ukznxe8l9/frontend/Bilddatenbank/Grafiken/Piktogramme/versand/Kostenloser-Versand.png" width="100%">');
     //Blog
 
 
