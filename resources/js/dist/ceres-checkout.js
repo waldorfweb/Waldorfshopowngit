@@ -81091,6 +81091,7 @@ function eraseCookie(key) {
 $(function () {}); //Canonical Tag in Single beginn
 
 var pathname = window.location.pathname;
+var pathname = pathname.replace(/\/?$/, '');
 var index = pathname.lastIndexOf("_");
 var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
 var result_post = pathname.substr(index + 1);
@@ -81112,6 +81113,7 @@ if (result_post_count < 5) {
 
 $(document).ajaxComplete(function (event, request, settings) {
   var pathname = window.location.pathname;
+  var pathname = pathname.replace(/\/?$/, '');
   var index = pathname.lastIndexOf("_");
   var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
   var result_post = pathname.substr(index + 1);
