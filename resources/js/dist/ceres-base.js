@@ -69594,10 +69594,10 @@ if (result_post_count < 5) {
   console.log(result_post);
   console.log(result_post_count);
   var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu' + index2 + ' class="cano"/>';
-  $('head').prepend(final_canonical); //remove canonical tag
-
-  $(".cano:not(:first)").remove();
+  $('head').prepend(final_canonical);
 } else {
+  //var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+result_post+' class="cano"/>';
+  //$('head').prepend(final_canonical);
   console.log('notfired_canonical_tag');
   $(".cano").remove();
 }
@@ -69614,8 +69614,7 @@ $(document).ajaxComplete(function (event, request, settings) {
     console.log(result_post);
     console.log(result_post_count);
     var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu' + index2 + ' class="cano"/>';
-    $('head').prepend(final_canonical); //remove canonical tag
-
+    $('head').prepend(final_canonical);
     $(".cano:not(:first)").remove();
   } else {
     console.log('notfired_canonical_tag');
@@ -69629,7 +69628,11 @@ $(window).on("load", function () {
   //$().ready(function(){
   //alert('test'); 
   //remove canonical tag
-  $(".cano:not(:first)").remove();
+  $(".cano:not(:first)").remove(); //$(".page-singleitem .empty-option" ).click(function() {
+  //    $(".cano").remove();
+  // });
+  //$(".cano").removeClass("cano");
+
   $(".search-input ").attr("placeholder", "Suche");
 
   if ($("body").hasClass("item-10000621")) {//alert('test3');

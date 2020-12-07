@@ -48,13 +48,12 @@ if (result_post_count < 5) {
     console.log(result_post_count);
     var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+index2+' class="cano"/>';
     $('head').prepend(final_canonical);
-    //remove canonical tag
-    $(".cano:not(:first)").remove();
 }  else{
+    //var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+result_post+' class="cano"/>';
+    //$('head').prepend(final_canonical);
     console.log('notfired_canonical_tag');
     $(".cano").remove();
 }  
-
 
 $( document ).ajaxComplete(function( event, request, settings ) {
     var pathname = window.location.pathname;
@@ -67,9 +66,10 @@ $( document ).ajaxComplete(function( event, request, settings ) {
         console.log(result_post);
         console.log(result_post_count);
         var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+index2+' class="cano"/>';
+        
         $('head').prepend(final_canonical);
-        //remove canonical tag
         $(".cano:not(:first)").remove();
+        
     }  else{
         console.log('notfired_canonical_tag');
         $(".cano").remove();
@@ -77,7 +77,6 @@ $( document ).ajaxComplete(function( event, request, settings ) {
   });
 
  //Canonical Tag in Single end
-
   
 //require(['jQuery'], function ($) {
     //$(document).ready(function(){
@@ -87,7 +86,10 @@ $( document ).ajaxComplete(function( event, request, settings ) {
         
         //remove canonical tag
         $(".cano:not(:first)").remove();
-
+        //$(".page-singleitem .empty-option" ).click(function() {
+        //    $(".cano").remove();
+         // });
+        //$(".cano").removeClass("cano");
  
     $(".search-input ").attr("placeholder", "Suche");
 
