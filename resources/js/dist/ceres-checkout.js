@@ -81099,7 +81099,7 @@ var result_post_count = result_post.length;
 if (result_post_count < 5) {
   //console.log(index2);
   //console.log(result_post);
-  //console.log(result_post_count);
+  console.log(result_post_count);
   var final_canonical = 'https://waldorfshop.eu' + index2;
   $('link[rel="canonical"]').attr('href', final_canonical);
   $(".cano:not(:first)").remove();

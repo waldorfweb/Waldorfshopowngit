@@ -38,6 +38,7 @@ $(function() {
 
  //Canonical Tag in Single beginn
 var pathname = window.location.pathname;
+
 var index = pathname.lastIndexOf("_");
 var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
 var result_post = pathname.substr(index+1);  
@@ -45,10 +46,11 @@ var result_post_count = result_post.length;
 if (result_post_count < 5) { 
     //console.log(index2);
     //console.log(result_post);
-    //console.log(result_post_count);
+    console.log(result_post_count);
     var final_canonical = 'https://waldorfshop.eu'+index2;
-        $('link[rel="canonical"]').attr('href', final_canonical);
+            $('link[rel="canonical"]').attr('href', final_canonical);
         $(".cano:not(:first)").remove();
+        
 }  else{
     //console.log('mehr als 5');
     $('link[rel="canonical"]').remove();
@@ -59,6 +61,7 @@ if (result_post_count < 5) {
 
 $( document ).ajaxComplete(function( event, request, settings ) {
     var pathname = window.location.pathname;
+    
     var index = pathname.lastIndexOf("_");
     var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
     var result_post = pathname.substr(index+1);  
@@ -68,6 +71,7 @@ $( document ).ajaxComplete(function( event, request, settings ) {
         //console.log(result_post);
         //console.log(result_post_count);
         var final_canonical = 'https://waldorfshop.eu'+index2;
+        
         $('link[rel="canonical"]').attr('href', final_canonical);
         }  else{
             //console.log('notfired_canonical_tag');
