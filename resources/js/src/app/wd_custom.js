@@ -36,47 +36,7 @@ $(function() {
 
 });
 
- //Canonical Tag in Single beginn
-var pathname = window.location.pathname;
-var index = pathname.lastIndexOf("_");
-var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
-var result_post = pathname.substr(index+1);  
-var result_post_count = result_post.length;
-if (result_post_count < 5) { 
-    console.log(index2);
-    console.log(result_post);
-    console.log(result_post_count);
-    var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+index2+' class="cano"/>';
-    $('head').prepend(final_canonical);
-}  else{
-    //var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+result_post+' class="cano"/>';
-    //$('head').prepend(final_canonical);
-    console.log('notfired_canonical_tag');
-    $(".cano").remove();
-}  
 
-$( document ).ajaxComplete(function( event, request, settings ) {
-    var pathname = window.location.pathname;
-    var index = pathname.lastIndexOf("_");
-    var index2 = pathname.substr(0, pathname.lastIndexOf("_"));
-    var result_post = pathname.substr(index+1);  
-    var result_post_count = result_post.length;
-    if (result_post_count < 5) { 
-        console.log(index2);
-        console.log(result_post);
-        console.log(result_post_count);
-        var final_canonical = '<link rel=“canonical“ href=https://waldorfshop.eu'+index2+' class="cano"/>';
-        
-        $('head').prepend(final_canonical);
-        $(".cano:not(:first)").remove();
-        
-    }  else{
-        console.log('notfired_canonical_tag');
-        $(".cano").remove();
-    }
-  });
-
- //Canonical Tag in Single end
   
 //require(['jQuery'], function ($) {
     //$(document).ready(function(){
@@ -86,6 +46,7 @@ $( document ).ajaxComplete(function( event, request, settings ) {
         
         //remove canonical tag
         $(".cano:not(:first)").remove();
+        //$('link[rel="canonical"]:not (:first)').remove();
         //$(".page-singleitem .empty-option" ).click(function() {
         //    $(".cano").remove();
          // });
