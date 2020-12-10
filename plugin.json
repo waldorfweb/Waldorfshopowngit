@@ -39,5 +39,5 @@
       "description" : "Add data layer before google tag manager"
     }
   ],
-  "serviceProvider": "Waldorfshop\\Providers\\ThemeServiceProvider"
+  "serviceProvider": "ppwd\\Providers\\ThemeServiceProvider"
 }

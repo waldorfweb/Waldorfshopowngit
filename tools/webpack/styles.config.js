@@ -3,7 +3,7 @@ const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 const path = require("path");
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 const pluginSetUrl = "https://www.waldorfshop.eu";
-const pluginPath = "waldorfshop";
+const pluginPath = "ppwd";
 
 module.exports = env =>
 {

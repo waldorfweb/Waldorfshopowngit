@@ -6,7 +6,7 @@ use Ceres\Widgets\Helper\BaseWidget;
 
 class FooterListWidget extends BaseWidget
 {
-    protected $template = "Waldorfshop::Widgets.Footer.FooterListWidget";
+    protected $template = "ppwd::Widgets.Footer.FooterListWidget";
 
     protected function getTemplateData($widgetSettings, $isPreview)
     {

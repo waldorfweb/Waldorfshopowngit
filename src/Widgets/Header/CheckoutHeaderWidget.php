@@ -7,5 +7,5 @@ use Ceres\Widgets\Helper\BaseWidget;
 class CheckoutHeaderWidget extends BaseWidget
 {
 
-    protected $template = "Waldorfshop::Widgets.Header.CheckoutHeaderWidget";
+    protected $template = "ppwd::Widgets.Header.CheckoutHeaderWidget";
 }

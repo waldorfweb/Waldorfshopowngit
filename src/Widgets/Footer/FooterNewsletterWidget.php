@@ -6,5 +6,5 @@ use Ceres\Widgets\Helper\BaseWidget;
 
 class FooterNewsletterWidget extends BaseWidget
 {
-    protected $template = "Waldorfshop::Widgets.Footer.FooterNewsletterWidget";
+    protected $template = "ppwd::Widgets.Footer.FooterNewsletterWidget";
 }

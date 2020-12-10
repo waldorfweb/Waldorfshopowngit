@@ -6,7 +6,7 @@ use Ceres\Widgets\Helper\BaseWidget;
 
 class ImageListWidget extends BaseWidget
 {
-    protected $template = "Waldorfshop::Widgets.Common.ImageListWidget";
+    protected $template = "ppwd::Widgets.Common.ImageListWidget";
 
     protected function getTemplateData($widgetSettings, $isPreview)
     {

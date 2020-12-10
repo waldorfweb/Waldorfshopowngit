@@ -7,5 +7,5 @@ use Ceres\Widgets\Helper\BaseWidget;
 class HeaderWidget extends BaseWidget
 {
 
-    protected $template = "Waldorfshop::Widgets.Header.HeaderWidget";
+    protected $template = "ppwd::Widgets.Header.HeaderWidget";
 }

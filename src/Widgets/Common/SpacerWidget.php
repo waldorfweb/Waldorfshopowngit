@@ -6,5 +6,5 @@ use Ceres\Widgets\Helper\BaseWidget;
 
 class SpacerWidget extends BaseWidget
 {
-    protected $template = "Waldorfshop::Widgets.Common.SpacerWidget";
+    protected $template = "ppwd::Widgets.Common.SpacerWidget";
 }

@@ -81031,8 +81031,9 @@ $(function () {}); //require(['jQuery'], function ($) {
 
 $(window).on("load", function () {
   //$().ready(function(){
-  //remove canonical tag
+  alert('test'); //remove canonical tag
   //$(".cano").removeClass("cano");
+
   $(".search-input ").attr("placeholder", "Suche");
 
   if ($("body").hasClass("item-10000621")) {//alert('test3');

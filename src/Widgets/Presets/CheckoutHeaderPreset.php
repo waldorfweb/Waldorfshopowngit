@@ -27,7 +27,7 @@ class CheckoutHeaderPreset implements ContentPreset
         if (strpos($companyLogo, 'http') !== 0 && strpos($companyLogo, 'layout/') !== 0) {
             $companyLogo = pluginApp(Application::class)->getUrlPath('Ceres') . '/' . $companyLogo;
         }
-        $preset->createWidget("Waldorfshop::CheckoutHeaderWidget")
+        $preset->createWidget("ppwd::CheckoutHeaderWidget")
             ->withSetting("companyLogoUrl", $companyLogo);
 
 

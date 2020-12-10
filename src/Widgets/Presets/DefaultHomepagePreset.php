@@ -33,7 +33,7 @@ class DefaultHomepagePreset implements ContentPreset
 
 
         $this->setupImageBoxWidget($this->preset->createWidget("Ceres::ImageBoxWidget"));
-        $this->preset->createWidget("Waldorfshop::ImageListWidget")
+        $this->preset->createWidget("ppwd::ImageListWidget")
                      ->withSetting("entries", []);
 
 

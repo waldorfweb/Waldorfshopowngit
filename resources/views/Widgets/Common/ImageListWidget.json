@@ -1,11 +1,11 @@
 {
-    "identifier": "Waldorfshop::ImageListWidget",
+    "identifier": "ppwd::ImageListWidget",
     "label": "Widget.imageListLabel",
     "previewImageURL": "/images/dia-widgets/footer-image-list.png",
     "type": "static",
     "categories": ["dia"],
     "position": 900,
-    "widgetClass": "Waldorfshop\\Widgets\\Common\\ImageListWidget",
+    "widgetClass": "ppwd\\Widgets\\Common\\ImageListWidget",
     "settings": {
         "class": {
             "type": "text",
