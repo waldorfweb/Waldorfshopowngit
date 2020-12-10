@@ -1,6 +1,6 @@
 <?php
 
-namespace Waldorfshop\Widgets\Presets;
+namespace Waldorfshopowngit\Widgets\Presets;
 
 use Ceres\Config\CeresConfig;
 use Ceres\Widgets\Helper\PresetHelper;

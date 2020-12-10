@@ -1,10 +1,10 @@
 {
   "version": "5.0.2",
   "license": "AGPL-3.0",
-  "name": "Waldorfshop-owngit",
+  "name": "Waldorfshopowngit",
   "marketplaceName": {
-    "de": "Waldorfshop-owngit",
-    "en": "Waldorfshop-owngit"
+    "de": "Waldorfshopowngit",
+    "en": "Waldorfshopowngit"
   },
   "pluginIcon": "icon_plugin_xs.png",
   "authorIcon": "icon_author_xs.png",
@@ -15,7 +15,7 @@
     "de": "Waldorf-Theme für Ceres.",
     "en": "Waldorf theme for Ceres."
   },
-  "namespace": "Waldorfshop-owngit",
+  "namespace": "Waldorfshopowngit",
   "author": "Waldorfshop",
   "keywords": [
     "plentymarkets",
