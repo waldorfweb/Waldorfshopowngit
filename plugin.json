@@ -3,20 +3,20 @@
   "license": "AGPL-3.0",
   "name": "Waldorfshop-owngit",
   "marketplaceName": {
-    "de": "Waldorfshop",
-    "en": "Waldorfshop"
+    "de": "Waldorfshop-owngit",
+    "en": "Waldorfshop-owngit"
   },
   "pluginIcon": "icon_plugin_xs.png",
   "authorIcon": "icon_author_xs.png",
   "email": "",
   "phone": "",
-  "description": "Onedot theme for Ceres.",
+  "description": "Waldorf theme for Ceres.",
   "shortDescription": {
-    "de": "Onedot-Theme für Ceres.",
-    "en": "Onedot theme for Ceres."
+    "de": "Waldorf-Theme für Ceres.",
+    "en": "Waldorf theme for Ceres."
   },
   "namespace": "Waldorfshop",
-  "author": "ONEDOT GmbH",
+  "author": "Waldorfshop",
   "keywords": [
     "plentymarkets",
     "plugins",
