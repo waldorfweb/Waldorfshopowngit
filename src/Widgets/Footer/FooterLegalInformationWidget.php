@@ -1,6 +1,6 @@
 <?php
 
-namespace Waldorfshopowngit\Widgets\Footer;
+namespace ppwd\Widgets\Footer;
 
 use Ceres\Widgets\Helper\BaseWidget;
 

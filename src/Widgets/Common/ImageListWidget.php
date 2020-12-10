@@ -1,6 +1,6 @@
 <?php
 
-namespace Waldorfshopowngit\Widgets\Common;
+namespace ppwd\Widgets\Common;
 
 use Ceres\Widgets\Helper\BaseWidget;
 

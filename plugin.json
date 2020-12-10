@@ -1,10 +1,10 @@
 {
   "version": "5.0.2",
   "license": "AGPL-3.0",
-  "name": "pp-wd",
+  "name": "ppwd",
   "marketplaceName": {
-    "de": "pp-wd",
-    "en": "pp-wd"
+    "de": "ppwd",
+    "en": "ppwd"
   },
   "pluginIcon": "icon_plugin_xs.png",
   "authorIcon": "icon_author_xs.png",
@@ -15,7 +15,7 @@
     "de": "Waldorf-Theme für Ceres.",
     "en": "Waldorf theme for Ceres."
   },
-  "namespace": "pp-wd",
+  "namespace": "ppwd",
   "author": "Waldorfshop",
   "keywords": [
     "plentymarkets",
