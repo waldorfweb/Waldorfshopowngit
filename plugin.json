@@ -1,10 +1,10 @@
 {
   "version": "5.0.2",
   "license": "AGPL-3.0",
-  "name": "Waldorfshop",
+  "name": "Waldorfshop2",
   "marketplaceName": {
-    "de": "Waldorfshop",
-    "en": "Waldorfshop"
+    "de": "Waldorfshop2",
+    "en": "Waldorfshop2"
   },
   "pluginIcon": "icon_plugin_xs.png",
   "authorIcon": "icon_author_xs.png",
@@ -15,7 +15,7 @@
     "de": "Onedot-Theme für Ceres.",
     "en": "Onedot theme for Ceres."
   },
-  "namespace": "Waldorfshop",
+  "namespace": "Waldorfshop2",
   "author": "ONEDOT GmbH",
   "keywords": [
     "plentymarkets",
@@ -39,5 +39,5 @@
       "description" : "Add data layer before google tag manager"
     }
   ],
-  "serviceProvider": "Waldorfshop\\Providers\\ThemeServiceProvider"
+  "serviceProvider": "Waldorfshop2\\Providers\\ThemeServiceProvider"
 }

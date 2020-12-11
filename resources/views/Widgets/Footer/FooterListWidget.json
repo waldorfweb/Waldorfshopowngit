@@ -1,11 +1,11 @@
 {
-    "identifier": "Waldorfshop::FooterListWidget",
+    "identifier": "Waldorfshop2::FooterListWidget",
     "label": "Widget.listLabel",
     "previewImageURL": "/images/dia-widgets/footer-linklist.png",
     "type": "static",
     "categories": ["dia"],
     "position": 900,
-    "widgetClass": "Waldorfshop\\Widgets\\Footer\\FooterListWidget",
+    "widgetClass": "Waldorfshop2\\Widgets\\Footer\\FooterListWidget",
     "settings": {
         "displayInline": {
             "type": "checkbox",

@@ -1,6 +1,6 @@
 <?php
 
-namespace Waldorfshop\Widgets\Presets;
+namespace Waldorfshop2\Widgets\Presets;
 
 use Ceres\Config\CeresConfig;
 use Ceres\Widgets\Helper\Factories\PresetWidgetFactory;
@@ -33,7 +33,7 @@ class DefaultHomepagePreset implements ContentPreset
 
 
         $this->setupImageBoxWidget($this->preset->createWidget("Ceres::ImageBoxWidget"));
-        $this->preset->createWidget("Waldorfshop::ImageListWidget")
+        $this->preset->createWidget("Waldorfshop2::ImageListWidget")
                      ->withSetting("entries", []);
 
 
