@@ -1,11 +1,11 @@
 <?php
 
-namespace ppwd\Widgets\Header;
+namespace Waldorfshop\Widgets\Header;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class HeaderWidget extends BaseWidget
 {
 
-    protected $template = "ppwd::Widgets.Header.HeaderWidget";
+    protected $template = "Waldorfshop::Widgets.Header.HeaderWidget";
 }

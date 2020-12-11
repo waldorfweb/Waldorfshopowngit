@@ -43,7 +43,7 @@ $(function() {
     $(window).on("load", function(){
         //$().ready(function(){
 
-        alert('test');
+
         //remove canonical tag
         //$(".cano").removeClass("cano");
     $(".search-input ").attr("placeholder", "Suche");

@@ -1,5 +1,5 @@
 <?php
-namespace ppwd\Providers;
+namespace Waldorfshop\Providers;
 use Plenty\Plugin\ServiceProvider;
 use Plenty\Plugin\Events\Dispatcher;
 use Plenty\Plugin\Templates\Twig;
@@ -12,7 +12,7 @@ use IO\Helper\ComponentContainer;
 
 /**
  * Class ThemeServiceProvider
- * @package ppwd\Providers
+ * @package Waldorfshop\Providers
  */
 class ThemeServiceProvider extends ServiceProvider
 {
@@ -22,13 +22,13 @@ class ThemeServiceProvider extends ServiceProvider
     }
     public function boot(Twig $twig, Dispatcher $dispatcher, ConfigRepository $config)
     {
-        $enabledOverrides = explode(", ", $config->get("ppwd.templates.override"));
+        $enabledOverrides = explode(", ", $config->get("Waldorfshop.templates.override"));
 
         if (in_array("add_style", $enabledOverrides) || in_array("all", $enabledOverrides)) {
 
             $dispatcher->listen('IO.Resources.Import', function (ResourceContainer $container) {
                 // The style is imported in the <head> on the PageDesign.twig of Ceres
-                $container->addStyleTemplate('ppwd::AddStyle');
+                $container->addStyleTemplate('Waldorfshop::AddStyle');
             }, self::PRIORITY);
 
         }
@@ -39,7 +39,7 @@ class ThemeServiceProvider extends ServiceProvider
             $dispatcher->listen('IO.Resources.Import', function (ResourceContainer $container)
             {
                 // The script is imported in the Footer.twig of Ceres
-                $container->addScriptTemplate('ppwd::AddScript');
+                $container->addScriptTemplate('Waldorfshop::AddScript');
             }, self::PRIORITY);
 
         }
@@ -53,19 +53,19 @@ class ThemeServiceProvider extends ServiceProvider
             $partial->set('footer', 'Ceres::PageDesign.Partials.Footer');
             if (in_array("head", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
-                $partial->set('head', 'ppwd::PageDesign.Partials.Head');
+                $partial->set('head', 'Waldorfshop::PageDesign.Partials.Head');
             }
             if (in_array("header", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
-                $partial->set('header', 'ppwd::PageDesign.Partials.Header.Header');
+                $partial->set('header', 'Waldorfshop::PageDesign.Partials.Header.Header');
             }
             if (in_array("page_design", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
-                $partial->set('page-design', 'ppwd::PageDesign.PageDesign');
+                $partial->set('page-design', 'Waldorfshop::PageDesign.PageDesign');
             }
             if (in_array("footer", $enabledOverrides) || in_array("all", $enabledOverrides))
             {
-                $partial->set('footer', 'ppwd::PageDesign.Partials.Footer');
+                $partial->set('footer', 'Waldorfshop::PageDesign.Partials.Footer');
             }
             return false;
         }, self::PRIORITY);
@@ -74,7 +74,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.home', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Homepage.Homepage');
+                $container->setTemplate('Waldorfshop::Homepage.Homepage');
                 return false;
             }, self::PRIORITY);
         }
@@ -83,7 +83,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.category.content', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Category.Content.CategoryContent');
+                $container->setTemplate('Waldorfshop::Category.Content.CategoryContent');
                 return false;
             }, self::PRIORITY);
         }
@@ -92,7 +92,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.category.item', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Category.Item.CategoryItem');
+                $container->setTemplate('Waldorfshop::Category.Item.CategoryItem');
                 return false;
             }, self::PRIORITY);
         }
@@ -101,7 +101,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.basket', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Basket.Basket');
+                $container->setTemplate('Waldorfshop::Basket.Basket');
                 return false;
             }, self::PRIORITY);
         }
@@ -110,7 +110,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.checkout', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Checkout.Checkout');
+                $container->setTemplate('Waldorfshop::Checkout.Checkout');
                 return false;
             }, self::PRIORITY);
         }
@@ -119,7 +119,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.confirmation', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Checkout.OrderConfirmation');
+                $container->setTemplate('Waldorfshop::Checkout.OrderConfirmation');
                 return false;
             }, self::PRIORITY);
         }
@@ -128,7 +128,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.login', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Customer.Login');
+                $container->setTemplate('Waldorfshop::Customer.Login');
                 return false;
             }, self::PRIORITY);
         }
@@ -137,7 +137,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.register', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Customer.Register');
+                $container->setTemplate('Waldorfshop::Customer.Register');
                 return false;
             }, self::PRIORITY);
         }
@@ -146,7 +146,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.item', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Item.SingleItemWrapper');
+                $container->setTemplate('Waldorfshop::Item.SingleItemWrapper');
                 return false;
             }, self::PRIORITY);
         }
@@ -155,7 +155,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.search', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::ItemList.ItemListView');
+                $container->setTemplate('Waldorfshop::ItemList.ItemListView');
                 return false;
             }, self::PRIORITY);
         }
@@ -164,7 +164,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.my-account', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::MyAccount.MyAccount');
+                $container->setTemplate('Waldorfshop::MyAccount.MyAccount');
                 return false;
             }, self::PRIORITY);
         }
@@ -173,7 +173,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.wish-list', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::WishList.WishListView');
+                $container->setTemplate('Waldorfshop::WishList.WishListView');
                 return false;
             }, self::PRIORITY);
         }
@@ -182,7 +182,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.contact', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Customer.Contact');
+                $container->setTemplate('Waldorfshop::Customer.Contact');
                 return false;
             }, self::PRIORITY);
         }
@@ -191,7 +191,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.order.return', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::OrderReturn.OrderReturnView');
+                $container->setTemplate('Waldorfshop::OrderReturn.OrderReturnView');
                 return false;
             }, self::PRIORITY);
         }
@@ -200,7 +200,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.order.return.confirmation', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::OrderReturn.OrderReturnConfirmation');
+                $container->setTemplate('Waldorfshop::OrderReturn.OrderReturnConfirmation');
                 return false;
             }, self::PRIORITY);
         }
@@ -209,7 +209,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.cancellation-rights', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.CancellationRights');
+                $container->setTemplate('Waldorfshop::StaticPages.CancellationRights');
                 return false;
             }, self::PRIORITY);
         }
@@ -218,7 +218,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.cancellation-form', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.CancellationForm');
+                $container->setTemplate('Waldorfshop::StaticPages.CancellationForm');
                 return false;
             }, self::PRIORITY);
         }
@@ -227,7 +227,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.legal-disclosure', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.LegalDisclosure');
+                $container->setTemplate('Waldorfshop::StaticPages.LegalDisclosure');
                 return false;
             }, self::PRIORITY);
         }
@@ -236,7 +236,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.privacy-policy', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.PrivacyPolicy');
+                $container->setTemplate('Waldorfshop::StaticPages.PrivacyPolicy');
                 return false;
             }, self::PRIORITY);
         }
@@ -245,7 +245,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.terms-conditions', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.TermsAndConditions');
+                $container->setTemplate('Waldorfshop::StaticPages.TermsAndConditions');
                 return false;
             }, self::PRIORITY);
         }
@@ -254,7 +254,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.item-not-found', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.ItemNotFound');
+                $container->setTemplate('Waldorfshop::StaticPages.ItemNotFound');
                 return false;
             }, self::PRIORITY);
         }
@@ -263,7 +263,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.page-not-found', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::StaticPages.PageNotFound');
+                $container->setTemplate('Waldorfshop::StaticPages.PageNotFound');
                 return false;
             }, self::PRIORITY);
         }
@@ -272,18 +272,18 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen('IO.tpl.newsletter.opt-out', function (TemplateContainer $container)
             {
-                $container->setTemplate('ppwd::Newsletter.NewsletterOptOut');
+                $container->setTemplate('Waldorfshop::Newsletter.NewsletterOptOut');
                 return false;
             }, self::PRIORITY);
         }
 
-        $enabledResultFields = explode(", ", $config->get("ppwd.result_fields.override"));
+        $enabledResultFields = explode(", ", $config->get("Waldorfshop.result_fields.override"));
         // Override auto complete list item result fields
         if (in_array("auto_complete_list_item", $enabledResultFields) || in_array("all", $enabledResultFields))
         {
             $dispatcher->listen( 'IO.ResultFields.AutoCompleteListItem', function(ResultFieldTemplate $templateContainer)
             {
-                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_AUTOCOMPLETE_ITEM_LIST, 'ppwd::ResultFields.AutoCompleteListItem');
+                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_AUTOCOMPLETE_ITEM_LIST, 'Waldorfshop::ResultFields.AutoCompleteListItem');
                 return false;
             }, self::PRIORITY);
         }
@@ -292,7 +292,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen( 'IO.ResultFields.BasketItem', function(ResultFieldTemplate $templateContainer)
             {
-                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_BASKET_ITEM, 'ppwd::ResultFields.BasketItem');
+                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_BASKET_ITEM, 'Waldorfshop::ResultFields.BasketItem');
                 return false;
             }, self::PRIORITY);
         }
@@ -301,7 +301,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen( 'IO.ResultFields.CategoryTree', function(ResultFieldTemplate $templateContainer)
             {
-                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_CATEGORY_TREE, 'ppwd::ResultFields.CategoryTree');
+                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_CATEGORY_TREE, 'Waldorfshop::ResultFields.CategoryTree');
                 return false;
             }, self::PRIORITY);
         }
@@ -311,7 +311,7 @@ class ThemeServiceProvider extends ServiceProvider
 
         if (in_array('list_item', $enabledResultFields) || in_array('all', $enabledResultFields))
         {
-            $resultFieldTemplate->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'ppwd::ResultFields.ListItem');
+            $resultFieldTemplate->setTemplate(ResultFieldTemplate::TEMPLATE_LIST_ITEM, 'Waldorfshop::ResultFields.ListItem');
         }
 
         // Override single item view result fields
@@ -319,7 +319,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             $dispatcher->listen( 'IO.ResultFields.SingleItem', function(ResultFieldTemplate $templateContainer)
             {
-                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_SINGLE_ITEM, 'ppwd::ResultFields.SingleItem');
+                $templateContainer->setTemplate(ResultFieldTemplate::TEMPLATE_SINGLE_ITEM, 'Waldorfshop::ResultFields.SingleItem');
                 return false;
             }, self::PRIORITY);
         }
@@ -328,7 +328,7 @@ class ThemeServiceProvider extends ServiceProvider
         {
             if ($container->getOriginComponentTemplate()=='Ceres::Customer.Components.UserLoginHandler')
             {
-                $container->setNewComponentTemplate('ppwd::Customer.Components.UserLoginHandler');
+                $container->setNewComponentTemplate('Waldorfshop::Customer.Components.UserLoginHandler');
             }
         }, self::PRIORITY);
     }

@@ -1,10 +1,10 @@
 <?php
 
-namespace ppwd\Widgets\Footer;
+namespace Waldorfshop\Widgets\Footer;
 
 use Ceres\Widgets\Helper\BaseWidget;
 
 class FooterNewsletterWidget extends BaseWidget
 {
-    protected $template = "ppwd::Widgets.Footer.FooterNewsletterWidget";
+    protected $template = "Waldorfshop::Widgets.Footer.FooterNewsletterWidget";
 }

@@ -1,11 +1,11 @@
 {
-    "identifier": "ppwd::CheckoutHeaderWidget",
+    "identifier": "Waldorfshop::CheckoutHeaderWidget",
     "label": "Widget.checkoutHeader",
     "previewImageURL": "/images/dia-widgets/header-checkout-navbar.png",
     "type": "header",
     "categories": ["dia"],
     "position": 0,
-    "widgetClass": "ppwd\\Widgets\\Header\\CheckoutHeaderWidget",
+    "widgetClass": "Waldorfshop\\Widgets\\Header\\CheckoutHeaderWidget",
     "settings": {
         "companyLogoUrl": {
             "type": "file",

@@ -1,11 +1,11 @@
 {
-    "identifier": "ppwd::HeaderWidget",
+    "identifier": "Waldorfshop::HeaderWidget",
     "label": "Widget.Header",
     "previewImageURL": "/images/dia-widgets/header-navbar.png",
     "type": "header",
     "categories": ["dia"],
     "position": 0,
-    "widgetClass": "ppwd\\Widgets\\Header\\HeaderWidget",
+    "widgetClass": "Waldorfshop\\Widgets\\Header\\HeaderWidget",
     "settings": {
         "enableLanguageSelect": {
             "type": "checkbox",

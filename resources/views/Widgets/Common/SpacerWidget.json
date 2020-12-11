@@ -1,11 +1,11 @@
 {
-    "identifier": "ppwd::SpacerWidget",
+    "identifier": "Waldorfshop::SpacerWidget",
     "label": "Widget.spacerLabel",
     "previewImageURL": "/images/dia-widgets/spacer.png",
     "type": "static",
     "categories": ["dia"],
     "position": 400,
-    "widgetClass": "ppwd\\Widgets\\Common\\SpacerWidget",
+    "widgetClass": "Waldorfshop\\Widgets\\Common\\SpacerWidget",
     "settings": {
         "size": {
             "type": "select",
