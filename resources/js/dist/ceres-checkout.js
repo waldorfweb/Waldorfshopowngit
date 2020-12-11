@@ -80664,7 +80664,7 @@ var headerLoaded = false;
 var allHeaderChildrenHeights = [];
 
 if (headerParent) {
-  function calculateBodyOffset() {
+  var calculateBodyOffset = function calculateBodyOffset() {
     headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
 
     if (headerLoaded && headerParent) {
@@ -80678,18 +80678,18 @@ if (headerParent) {
       vueApp.style.marginTop = bodyOffset + "px";
       vueApp.style.minHeight = "calc(100vh - " + bodyOffset + "px)";
     }
-  }
+  };
 
-  function getHeaderChildrenHeights() {
+  var getHeaderChildrenHeights = function getHeaderChildrenHeights() {
     headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
     allHeaderChildrenHeights = [];
 
     for (var i = 0; i < headerParent.children.length; i++) {
       allHeaderChildrenHeights.push(headerParent.children[i].getBoundingClientRect().height);
     }
-  }
+  };
 
-  function scrollHeaderElements() {
+  var scrollHeaderElements = function scrollHeaderElements() {
     headerParent = headerParent.offsetParent ? headerParent : document.querySelector("[data-header-offset]");
 
     if (headerLoaded && !App.isShopBuilder) {
@@ -80726,7 +80726,7 @@ if (headerParent) {
         absolutePos = absolutePos + elemHeight;
       }
     }
-  }
+  };
 
   window.addEventListener("resize", Object(ceres_app_helper_debounce__WEBPACK_IMPORTED_MODULE_11__["debounce"])(function () {
     calculateBodyOffset();
@@ -81003,8 +81003,8 @@ var Tawk_API = Tawk_API || {},
   var s1 = document.createElement("script"),
       s0 = document.getElementsByTagName("script")[0];
   s1.async = true;
-  s1.src = 'https://embed.tawk.to/5de915d1d96992700fcaea9b/default';
-  s1.charset = 'UTF-8';
+  s1.src = 'https://embed.tawk.to/5de915d1d96992700fcaea9b/default'; // s1.charset = 'UTF-8';
+
   s1.setAttribute('crossorigin', '*');
   s0.parentNode.insertBefore(s1, s0);
 })(); /// Set Cookies -->
