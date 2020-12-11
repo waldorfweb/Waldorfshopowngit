@@ -1,7 +1,7 @@
 {
-  "name": "Waldorfshop2",
+  "name": "pp-waldorfshop",
   "license": "AGPL-3.0",
-  "version": "5.0.4",
+  "version": "5.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/plentymarkets/plugin-ceres.git"
