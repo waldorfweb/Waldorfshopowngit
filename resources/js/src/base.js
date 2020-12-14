@@ -1,3 +1,4 @@
+alert('PMs');
 import "~/app/publicPath";
 // =========================
 // Polyfill's
