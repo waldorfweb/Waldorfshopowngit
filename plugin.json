@@ -10,13 +10,13 @@
   "authorIcon": "icon_author_xs.png",
   "email": "",
   "phone": "",
-  "description": "Onedot theme for Ceres.",
+  "description": "Waldorf theme for Ceres.",
   "shortDescription": {
-    "de": "Onedot-Theme für Ceres.",
-    "en": "Onedot theme for Ceres."
+    "de": "Waldorf theme für Ceres.",
+    "en": "Waldorf theme for Ceres."
   },
   "namespace": "Waldorfshop2",
-  "author": "ONEDOT GmbH",
+  "author": "Universnatur GmbH",
   "keywords": [
     "plentymarkets",
     "plugins",
